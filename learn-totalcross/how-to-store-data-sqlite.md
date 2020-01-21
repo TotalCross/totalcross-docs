@@ -26,11 +26,11 @@ Let's now learn how to do CRUD \(Create, Read, Update, Delete\) with SQLite in T
 Remember that the link to download the source code is in the topic References at the end of this session. 
 {% endhint %}
 
-Let's use the Maven project we created in the chapter  "[Your Frist TotalCross App](https://totalcross.gitbook.io/playbook/learn-totalcross/your-first-totalcross-app)" called HelloTC. If you do not have it there and you want to create a [Maven project from the start](https://totalcross.gitbook.io/playbook/learn-totalcross/getting-started), that's fine! 
+Let's use the Maven project we created in the chapter  "[Your Frist TotalCross App](https://learn.totalcross.com/learn-totalcross/getting-started/first-totalcross-app)" called HelloTC. If you do not have it there and you want to create a [Maven project from the start](https://learn.totalcross.com/learn-totalcross/getting-started), that's fine! 
 
 ### Project Structure
 
-As you will learn better from the chapters in the suggested [Architecture ](https://totalcross.gitbook.io/playbook/guideline/suggested-architecture)and [Design ](https://totalcross.gitbook.io/playbook/guideline/suggested-design-patterns)Patterns, TotalCross suggests following the MVC and DAO standard in creating your applications. 
+As you will learn better from the chapters in the suggested [Architecture ](https://learn.totalcross.com/guideline/suggested-architecture)and [Design Patterns](https://learn.totalcross.com/guideline/suggested-design-patterns), TotalCross suggests following the MVC and DAO standard in creating your applications. 
 
 So let's start by creating three packages: 
 
