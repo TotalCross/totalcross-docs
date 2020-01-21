@@ -29,7 +29,7 @@
 
 ## Guides <a id="articles"></a>
 
-* [Understanding TotalCross for Linux ARM](articles/iniciando-com-totalcross-para-raspberry-pi.md)
+* [Understanding TotalCross for Linux ARM](articles/understanding-totalcross-for-linux-arm.md)
 
 ## Guide to app architecture <a id="guideline"></a>
 

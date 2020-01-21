@@ -10,7 +10,7 @@ read more in the [Skia documentation](https://skia.org/).
 
 ### Why did we choose skia?
 
-TotalCross uses [OpenGL ](https://totalcross.gitbook.io/playbook/opengl)in the graphics, but this technology was depreciated in iOS and, to keep up with the constant upgrades and improvements that TotalCross proposes to do on all platforms, we decided that this was the best time to bring a complementary technology \(and even better\) to our tool. That's why Skia was chosen to be implemented.
+TotalCross uses [OpenGL ](https://learn.totalcross.com/opengl)in the graphics, but this technology was depreciated in iOS and, to keep up with the constant upgrades and improvements that TotalCross proposes to do on all platforms, we decided that this was the best time to bring a complementary technology \(and even better\) to our tool. That's why Skia was chosen to be implemented.
 
 ### Impact of Skia on TotalCross
 

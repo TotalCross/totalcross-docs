@@ -19,7 +19,7 @@ Basic requirements must be met:
 
 And complete the Getting Started:
 
-{% page-ref page="iniciando-com-totalcross-para-raspberry-pi.md" %}
+{% page-ref page="understanding-totalcross-for-linux-arm.md" %}
 
 The following electronic components are also required:
 
