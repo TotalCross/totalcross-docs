@@ -6,7 +6,7 @@
 * [Skia](skia.md)
 * [OpenGL](opengl.md)
 
-## :milky\_way: Learn TotalCross <a id="learn-totalcross"></a>
+## Learn TotalCross
 
 * [Basic requirements](learn-totalcross/requirements/README.md)
   * [TotalCross Key](learn-totalcross/requirements/totalcross-key.md)

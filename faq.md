@@ -2,7 +2,7 @@
 
 ## How to solve "Could not find the file jarsigner.exe. Make sure you have installed a JDK than has this file in the bin folder" error?
 
-Isso normalmente acontece por 2 motivos:
+this error normally occurs in two situations:
 
 1. A **%JavaHome% environment variable** is using JRE instead of JDK. In this case you can see how to configure by **clicking** [**here**](https://www.ntu.edu.sg/home/ehchua/programming/howto/environment_variables.html).
 2. Eclipse itself is pointing erroneously at the JRE. In this case, just go to the top bar in **Windows &gt; Preferences**.  Then it will open a window and you click on **Java &gt; Installed JREs &gt; add**.  Another window will appear, just click "**Next**" and then click "**Directory**" and **select the JDK folder that is inside the java folder**, where you installed it \(usually C: \Program Files\Java\).  Finally, just click select **folder&gt; finish**. **Confirm that JDK is selected** and then just click "**Apply and Close**" and then **restart** eclipse. 
@@ -131,7 +131,7 @@ First, the main function of each is different:
 * **Container**: A control capable of containing other controls. It is primarily a form of organization.
 * **Window**: it is a control capable of overlapping others, creating an illusion of depth. In addition, Windows is also containers, as they can accommodate several components within them.
 
-To better understand the difference between them in specific cases and how to use both in the most appropriate way, access the [Windows X Container session](https://totalcross.gitbook.io/playbook/guideline/container-x-window).
+To better understand the difference between them in specific cases and how to use both in the most appropriate way, access the [Windows X Container session](https://learn.totalcross.com/guideline/container-x-window).
 
 ## Is it possible to search for GPS position through Triangulation?
 
