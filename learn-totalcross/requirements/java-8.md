@@ -73,23 +73,19 @@ brew tap AdoptOpenJDK/openjdk && brew install adoptopenjdk-openjdk8
 {% tab title="Linux \(debian based\)" %}
 **Step 1:** open terminal \(CTRL+ALT+T\);
 
-**Step 2:** add PPA repository to APT:
-
-`$ sudo add-apt-repository ppa:webupd8team/java`
-
-**Step 3:** updates APT:
+**Step 2:** updates APT:
 
 `$ sudo apt update` 
 
-**Step 4:** install Java 8:
+**Step 3:** install Java 8:
 
-`$ sudo apt-get install oracle-java8-installer`
+`$ sudo apt-get install openjdk-8-jdk`
 
-**Step 5:** accept terms of use in installer \(confirm options with Enter\);
+**\(Optional\):** if you already have another Java version:
 
-**\(Optional\):** configure environment variables:
+`$ sudo update-alternatives --config java`
 
-`$ sudo apt-get install oracle-java8-set-default`
+and select the correct version.
 {% endtab %}
 {% endtabs %}
 
