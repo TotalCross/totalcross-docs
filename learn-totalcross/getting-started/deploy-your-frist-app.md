@@ -8,8 +8,8 @@ Make sure you have the prerequisites to deploy
 
 ## **Maven Deploy**
 
-### **Pom File**
-
+{% tabs %}
+{% tab title="Pom File" %}
 In the pom file, we need to add the **properties tags** and the **build tag** as shown in the example below.
 
 ```markup
@@ -103,9 +103,9 @@ In the pom file, we need to add the **properties tags** and the **build tag** as
 {% hint style="warning" %}
 If you do not have a license for IOS you should remove line 70, 74 and 75
 {% endhint %}
+{% endtab %}
 
-### Intellij Idea
-
+{% tab title="Intellij Idea" %}
 **To build the project, you can go to the run menu, and click in edit configurations.**
 
 ![](https://lh6.googleusercontent.com/y-5QlWO8feZTwD35Yfz98Rm4dmzYiJS6IqUsF9oQVXV_6haIkPK6kUDuRHN_ElNF2rAK-Kr9OXWJ9vGITiWalJne4MLkPWFdRqpQdyVDXeRBxN6tsZpyDrTgDoMHaRxg3PodUqOY)
@@ -127,11 +127,9 @@ If you do not have a license for IOS you should remove line 70, 74 and 75
 **Just click in run button**
 
 ![](https://lh5.googleusercontent.com/AlV6Qq00WXhjaECUgQ9tTHv3N4XGUJhRiNjGoGcUKPrL09HHIEau_NpSse6Zz3uFA1KQKXWnVUT4qI-1ypdhQ1kbXwiIy7XhrodAaltpYGaenw6xExjPFvlegpj9etx1QG7apv-W)
+{% endtab %}
 
-\*\*\*\*
-
-### **Eclipse**
-
+{% tab title="Eclipse" %}
 **To build your app you can right click on the project and select Run as -&gt; Maven Build.**
 
 ![](https://lh5.googleusercontent.com/fR29G4V17zRnKHcujN6214JZL5N8ZvBAOTW571u-ubKlhamdHo2XG5svOXjB0YgN277D3Glpuyz1ee3MwNYRnWGuEuqjRDakhR3qJbn8FMDzVMUCqYH_sLr0b3Cmc6O2V2ouXaa2)
@@ -147,6 +145,8 @@ After insert in Goals field, just click in **Run** for build your apps.
 ![](https://lh5.googleusercontent.com/yJxayDnmrHPyHmH1HCK2_6djrgqwX95dPsULLbSOgLvupFOsKSzb0Ylg9QrFZQpD8KiHxKWh0V5O2Bkcuh1bjc-efbSOY8N3Iy98yBvXtI54I0w01fJlpVMYi0WHykkrh_nnytx7)
 
 ![](https://lh5.googleusercontent.com/sZvKD_0mpVyFziejX9WZXjAS62wPjXXgTy3XHVkgHNyO1EoaV9qoXN56FLHWltOIJ6xsblGIr4zpZB_6bxwfSxv2IDv6431xEHNv1viuuDlorFNjBG72g406sTwysJEl-8hqAg2H)
+{% endtab %}
+{% endtabs %}
 
 ## Your apps
 

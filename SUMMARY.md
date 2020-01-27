@@ -12,6 +12,7 @@
   * [TotalCross Key](learn-totalcross/requirements/totalcross-key.md)
   * [Java JDK 8](learn-totalcross/requirements/java-8.md)
   * [Maven](learn-totalcross/requirements/maven.md)
+* [Developing TotalCross and VS Code](learn-totalcross/developing-totalcross-and-vs-code.md)
 * [Getting started](learn-totalcross/getting-started/README.md)
   * [Hello World App](learn-totalcross/getting-started/first-totalcross-app.md)
   * [Deploy Hello World App](learn-totalcross/getting-started/deploy-your-frist-app.md)

@@ -12,25 +12,25 @@ The tutorial will be divided into two sections
 
 ### Create a new project
 
-![](../../.gitbook/assets/image%20%2852%29.png)
+![](../../.gitbook/assets/image%20%2855%29.png)
 
 Click in `Create New Project`, select Maven and click in next
 
-![](../../.gitbook/assets/image%20%2846%29.png)
+![](../../.gitbook/assets/image%20%2849%29.png)
 
 Put this data: `GroupId = com.totalcross.sample` , `ArtifactId = HelloTC` in whitespace and click in next.
 
-![](../../.gitbook/assets/image%20%2842%29.png)
+![](../../.gitbook/assets/image%20%2845%29.png)
 
 In `Project Location` place the directory of your choice, after this, click in finish
 
-![](../../.gitbook/assets/image%20%2833%29.png)
+![](../../.gitbook/assets/image%20%2836%29.png)
 
 #### TotalCross Sources and JavaDocs
 
 In order, to make your development easier, Go to: `Preference > Build, Execution and Deployment > Build Tools > Maven > Importing.` and mark options Automatically Download Sources and Documentation. As shown in the Figure bellow:
 
-![](../../.gitbook/assets/image%20%2848%29.png)
+![](../../.gitbook/assets/image%20%2851%29.png)
 
 Click Ok in the Preferences panel and proceed to the next steps.
 
@@ -53,7 +53,7 @@ To add new package you have to right-click in Java package  **select new -&gt; p
 
 ```
 
-![](../../.gitbook/assets/image%20%2860%29.png)
+![](../../.gitbook/assets/image%20%2863%29.png)
 
 In the **pom.xml** file, add the following code snippet to the file inside the  **project tag**.
 
@@ -83,7 +83,7 @@ In the **pom.xml** file, add the following code snippet to the file inside the  
 {% hint style="warning" %}
 After this, you need import the pom file changes
 
-![](../../.gitbook/assets/image%20%283%29.png)
+![](../../.gitbook/assets/image%20%285%29.png)
 {% endhint %}
 
 {% hint style="warning" %}
@@ -100,11 +100,11 @@ Beware classes begin with the first capital letter
 
 #### Create HelloTC
 
-![](../../.gitbook/assets/image%20%2812%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 #### Create HelloTCApplication
 
-![](../../.gitbook/assets/image%20%2835%29.png)
+![](../../.gitbook/assets/image%20%2838%29.png)
 
 ### Add Code
 
@@ -171,7 +171,7 @@ Take a look at the section below for more details about the TotalCross Simulator
 {% page-ref page="../device-simulator.md" %}
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%2850%29.png)
+![](../../.gitbook/assets/image%20%2853%29.png)
 
 
 
@@ -181,23 +181,23 @@ Take a look at the section below for more details about the TotalCross Simulator
 
 Click in **file -&gt; new -&gt; Maven Project**
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](../../.gitbook/assets/image%20%2833%29.png)
 
 Just click **Next** 
 
-![](../../.gitbook/assets/image%20%2844%29.png)
+![](../../.gitbook/assets/image%20%2847%29.png)
 
 Select the column `Artifact Id maven-archetype-quickstart` and click in **Next**.
 
-![](../../.gitbook/assets/image%20%2863%29.png)
+![](../../.gitbook/assets/image%20%2868%29.png)
 
 Put this data in `Group id = com.totalcross.sample` and `Artifact id = HelloTC`, after this click in finish.
 
-![](../../.gitbook/assets/image%20%2825%29.png)
+![](../../.gitbook/assets/image%20%2828%29.png)
 
 ### Project
 
-![](../../.gitbook/assets/image%20%2839%29.png)
+![](../../.gitbook/assets/image%20%2842%29.png)
 
 In the pom file, add the following code snippet in line 13 replacing the current contents of the file.
 
@@ -232,7 +232,7 @@ Remember the download dependencies may take according to your internet :D
 
 To create classes, you have to do right click in package HelloTC e select **new -&gt; other...**
 
-![](../../.gitbook/assets/image%20%2823%29.png)
+![](../../.gitbook/assets/image%20%2825%29.png)
 
 {% hint style="warning" %}
 Beware classes begin with the first capital letter
@@ -240,7 +240,7 @@ Beware classes begin with the first capital letter
 
 #### Create HelloTC
 
-![](../../.gitbook/assets/image%20%2857%29.png)
+![](../../.gitbook/assets/image%20%2860%29.png)
 
 ### Add Code
 

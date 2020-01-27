@@ -57,7 +57,7 @@ A quick way to start using TotalCross is installing the [TotalCross extension fo
 
 **Step 8:** watch the integrated simulator!
 
-### Getting your Hello World App cooler 
+### Getting your Hello World App even more Cooler 🥶 😅 
 
 The following project deals with the control of an RGB LED with user interface buttons and a pin reset button!
 

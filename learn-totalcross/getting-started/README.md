@@ -1,3 +1,7 @@
+---
+description: You will be able to complete this entire guide in 15 to 30 minutes.
+---
+
 # Getting started
 
 We've prepared a simple way for you to create your own apps and deliver to any platform, using only **Java** and **TotalCross** \(no iOS or Android knowledge required\)!
@@ -11,57 +15,79 @@ To create apps with TotalCross, you just need to:
 * have[ Maven](https://app.gitbook.com/@totalcross/s/playbook/~/drafts/-LckZfuWjUhttQtTbzGx/primary/learn-totalcross/getting-started/basic-requirements/maven) installed;
 * [your favorite IDE](https://learn.totalcross.com/learn-totalcross/getting-started/first-totalcross-app);
 
-## VS Code
+## Running Your First Application \(Hello World\)
 
-We recommend the plug in VS Code as it is light and complete for your project, with it you create, run and deploy!
+Creating your first application is really simple and straightforward. Once you have accomplished all the basic requirements, you will be able to run your first application in about 5 minutes. Thus, choose the environment that makes you feel more comfortable:
 
-**Installing VsCode**
+{% tabs %}
+{% tab title="VS Code" %}
+Install our plugin for VS Code: [TotalCross extension for VS Code](https://marketplace.visualstudio.com/items?itemName=Italo.totalcross). 
 
-**Linux**
+After having the plugin installed, open VS Code console  \(CTRL + Shift + P\) and type TotalC… autocomplete should help!
 
-The easiest way to install Visual Studio Code for Debian / Ubuntu based distributions is to install the .deb package, via the graphics software center, if available on your Linux distribution, or download from [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download) the .deb file and install it with the following command in the terminal: `sudo apt install ./<file>.deb`
+![](../../.gitbook/assets/3-1.gif)
 
-Or through the command line with: `sudo apt-get install code`  
+Select _TotalCross: Create new Project._ Then __create a folder called _HelloWorld_ and select it. _GroupId_ will be `com.totalcross`, but you can replace with the name of your company \(as you would chose a domain for your company backwards, example: `org.wikipedia` for `wikipedia.org`\). _ArtifactId is the name of your application, in this example it_ will be `HelloWorld`. Select the latest version of TotalCross SDK and choose whatever platform you intend to deploy an application.
+
+![Click to expand](../../.gitbook/assets/4-1.gif)
+
+A new window with the new project structure will be open. Right click on the`RunHelloWorldApplication.java` inside `src> main> com> totalcross` and choose click _Run_ \(IDE\). This will make your new application run on our Java simulator:
+
+![Click  to expand](../../.gitbook/assets/5-1.gif)
+
+[to see more details about developing using VS Code and TotalCross](../developing-totalcross-and-vs-code.md)
+{% endtab %}
+
+{% tab title="CLI" %}
+{% hint style="warning" %}
+The TotalCross CLI tool is under development. But don't worry, our awesome development team are going to get this done in the first week of february 2020 😁 . 
+{% endhint %}
+{% endtab %}
+{% endtabs %}
+
+## Packaging
+
+As Totalcross is a cross platform SDK, packaging is one of the most important phases in the development process. Using Totalcross, you can deliver application for the following platform.
+
+{% tabs %}
+{% tab title="VS Code" %}
+With the project open in VS Code, open the _Command Palette_ `F1` or `(CTRL + Shift + P)` and search for `Totalcross: Package`; 
+
+After the package process is finished the target program will take place inside the folder `target/install/<platform>`.
+
+![](../../.gitbook/assets/diize1x.gif)
+{% endtab %}
+
+{% tab title="CLI" %}
+{% hint style="warning" %}
+The TotalCross CLI tool is under development. But don't worry, our awesome development team are going to get this done in the first week of february 2020 😁 . 
+{% endhint %}
+{% endtab %}
+{% endtabs %}
+
+## Deploy
+
+In addition, you can still deploy in an uncomplicated way, in the environment you want.
+
+{% tabs %}
+{% tab title="VS Code" %}
+In VS Code the deploy is working only for linux arm programs. This feature performs the implementation and execution of the platform via ssh.
+
+To do it open the project and press `F1` or `(CTRL + Shift + P)` and search for `Totalcross: Deploy&Run`.
+
+![](../../.gitbook/assets/y6f3ptc.gif)
+{% endtab %}
+
+{% tab title="CLI" %}
+{% hint style="warning" %}
+The TotalCross CLI tool is under development. But don't worry, our awesome development team are going to get this done in the first week of february 2020 😁 . 
+{% endhint %}
+{% endtab %}
+{% endtabs %}
+
+{% hint style="success" %}
+You've learnt how to create a new project, package and deploy.  
+{% endhint %}
 
 
-For more information access: [https://code.visualstudio.com/docs/setup/linux](https://code.visualstudio.com/docs/setup/linux)
-
- **Windows**
-
-Download the Visual Studio Code installer from the site: [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download) and run the installer. Or download a Zip archive, extract it and run Code from there. 
-
-For more information access: [https://code.visualstudio.com/docs/setup/windows](https://code.visualstudio.com/docs/setup/windows)  
-
-
-**Mac OS**
-
-Download Visual Studio Code installer from the site: [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download) and double-click on the downloaded archive to expand the contents. In the next step drag Visual Studio Code.app to the Applications folder, making it available in the Launchpad and add VS Code to your Dock by right-clicking on the icon and choosing  Options Keep in Doc.  
-
-
-For more information access: [https://code.visualstudio.com/docs/setup/mac](https://code.visualstudio.com/docs/setup/mac)  
-
-
-**Installing plugin**
-
-Open VS Code and go to Extensions.
-
-![](../../.gitbook/assets/captura-de-tela-de-2020-01-22-13-45-04.png)
-
-Type in the TotalCross search bar.
-
-![](../../.gitbook/assets/captura-de-tela-de-2020-01-22-13-45-07.png)
-
-Click install.
-
-![](../../.gitbook/assets/captura-de-tela-de-2020-01-22-13-45-14.png)
-
-**Using the plugin**
-
-\*\*\*\*
-
-## Your First TotalCross app
-
-This page shows how to create a simple app using TotalCross SDK together with IDEs.
-
-{% page-ref page="first-totalcross-app.md" %}
 
