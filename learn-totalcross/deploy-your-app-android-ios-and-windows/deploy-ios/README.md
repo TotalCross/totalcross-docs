@@ -63,13 +63,13 @@ Now go to the [Apple Developer Page](https://developer.apple.com/account/ios/cer
 
 You should now see this screen:
 
-![](../../../.gitbook/assets/image%20%2865%29.png)
+![](../../../.gitbook/assets/image%20%2867%29.png)
 
 As I need a production certificate for an Enterprise account, I choosed the `In-House and Ad-Hoc`. 
 
  And then finally to the screen where I now shall upload the generated `.csr`file \(it is the public key, so therefore no worry\):
 
-![](../../../.gitbook/assets/image%20%2834%29.png)
+![](../../../.gitbook/assets/image%20%2835%29.png)
 
 Now you can download the certificate at any time. This file is commonly named as `ios_distribution.cer`.
 
@@ -77,9 +77,9 @@ Now you can download the certificate at any time. This file is commonly named as
 
 To generate the provisioning profile, one must have before-hand to register new Apple ID in `Register a new Identifier`:
 
-![](../../../.gitbook/assets/image%20%2831%29.png)
+![](../../../.gitbook/assets/image%20%2832%29.png)
 
-![](../../../.gitbook/assets/image%20%2875%29.png)
+![](../../../.gitbook/assets/image%20%2878%29.png)
 
  In the sample above, I have choosen to go with the `Explicit App ID`, `com.totalcross.tcguide`. 
 

@@ -33,7 +33,7 @@ Then, go to [Apple Developer website](https://developer.apple.com/) &gt; Certifi
 
 Back to the Certificates, Identifiers & Profiles, click on Profiles. Then, click on the Development Provioning file you've created to test your application and Edit it.
 
-![](../../../.gitbook/assets/image%20%2874%29.png)
+![](../../../.gitbook/assets/image%20%2877%29.png)
 
 You're going to see a list of already registred devices. Check the ones you want to use for testing your application, then click on `save` button and download the new version of your Development mobile provision.
 

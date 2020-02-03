@@ -6,14 +6,19 @@
 * [Skia](skia.md)
 * [OpenGL](opengl.md)
 
-## Learn TotalCross
+## 📌 Get Started
 
-* [Basic requirements](learn-totalcross/requirements/README.md)
-  * [TotalCross Key](learn-totalcross/requirements/totalcross-key.md)
-  * [Java JDK 8](learn-totalcross/requirements/java-8.md)
-  * [Maven](learn-totalcross/requirements/maven.md)
-* [Developing TotalCross and VS Code](learn-totalcross/developing-totalcross-and-vs-code.md)
-* [Getting started](learn-totalcross/getting-started/README.md)
+* [1. Basic requirements](get-started/requirements/README.md)
+  * [TotalCross Key](get-started/requirements/totalcross-key.md)
+  * [Java JDK 8](get-started/requirements/java-8.md)
+  * [Maven](get-started/requirements/maven.md)
+* [2. Setting up Environment, Running and Deploying](get-started/setting-up-environment-running-and-deploying.md)
+* [3. Your first app](get-started/write-your-first-app.md)
+* [4. Learn more](get-started/learn-more.md)
+
+## 📖 Learn TotalCross
+
+* [Maven IDE](learn-totalcross/getting-started/README.md)
   * [Hello World App](learn-totalcross/getting-started/first-totalcross-app.md)
   * [Deploy Hello World App](learn-totalcross/getting-started/deploy-your-frist-app.md)
 * [Local Database - SQLite](learn-totalcross/how-to-store-data-sqlite.md)
@@ -28,9 +33,9 @@
   * [Deploy iOS](learn-totalcross/deploy-your-app-android-ios-and-windows/deploy-ios/README.md)
     * [Using Development certificate to test your apps](learn-totalcross/deploy-your-app-android-ios-and-windows/deploy-ios/using-development-certificate-to-test-your-apps.md)
 
-## Guides <a id="articles"></a>
+## 🌌 Guides
 
-* [Understanding TotalCross for Linux ARM](articles/understanding-totalcross-for-linux-arm.md)
+* [Understanding TotalCross for Linux ARM](guides/understanding-totalcross-for-linux-arm.md)
 
 ## Guide to app architecture <a id="guideline"></a>
 
