@@ -18,9 +18,6 @@
 
 ## 📖 Learn TotalCross
 
-* [Maven IDE](learn-totalcross/getting-started/README.md)
-  * [Hello World App](learn-totalcross/getting-started/first-totalcross-app.md)
-  * [Deploy Hello World App](learn-totalcross/getting-started/deploy-your-frist-app.md)
 * [Local Database - SQLite](learn-totalcross/how-to-store-data-sqlite.md)
 * [Web Services](learn-totalcross/how-to-receive-send-data-webservice.md)
 * [Device Simulator](learn-totalcross/device-simulator.md)

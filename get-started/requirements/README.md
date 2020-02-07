@@ -20,5 +20,3 @@ The three minimum requirements are:
 
 There are a few IDE options that have Maven integration:
 
-{% page-ref page="../../learn-totalcross/getting-started/" %}
-

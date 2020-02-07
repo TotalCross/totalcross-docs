@@ -24,8 +24,6 @@ Until now, there were no binding to get the Firebase Identitity Token, but **as 
 
 If you **don't know** how to create and configure a Maven project, log in below:
 
-{% page-ref page="../learn-totalcross/getting-started/first-totalcross-app.md" %}
-
 * Create a package called **pushnotification\_firebase**, and then create a class with the same name. This class will be our **MainWindow**.
 
 ![](../.gitbook/assets/image%20%2875%29.png)

@@ -6,8 +6,6 @@ This guide is intended for developers who have already completed getting started
 
 If you are not already familiar with the TotalCross framework we strongly recommend you to read the entire previous session \(Learning TotalCross\), beginning with Getting Started.
 
-{% page-ref page="../learn-totalcross/getting-started/" %}
-
 ## The mobile user experience
 
 In most cases, computer applications have a single point of entry into a desktop or quick access to programs, and then run as a single monolithic process. 
