@@ -2,7 +2,7 @@
 
 See how to run your first application in TotalCross.
 
-## Running Your First Application \(Hello World\)
+## Creating Your First Application \(Hello World\)
 
 Creating your first application is really simple and straightforward. Once you have accomplished all the basic requirements, you will be able to run your first application in about 5 minutes. Thus, choose the environment that makes you feel more comfortable:
 

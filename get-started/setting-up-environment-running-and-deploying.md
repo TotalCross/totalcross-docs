@@ -1,4 +1,4 @@
-# 2. Setting up Environment, Running and Deploying
+# 2. Setting up Environment
 
 We recommend the plugin for VS Code as it is simple, light and complete for developing totalcross projects, with it you can create, package, deploy and deploy&run \(for linux arm only\).
 

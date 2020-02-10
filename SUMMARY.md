@@ -12,7 +12,7 @@
   * [TotalCross Key](get-started/requirements/totalcross-key.md)
   * [Java JDK 8](get-started/requirements/java-8.md)
   * [Maven](get-started/requirements/maven.md)
-* [2. Setting up Environment, Running and Deploying](get-started/setting-up-environment-running-and-deploying.md)
+* [2. Setting up Environment](get-started/setting-up-environment-running-and-deploying.md)
 * [3. Your first app](get-started/write-your-first-app.md)
 * [4. Learn more](get-started/learn-more.md)
 
