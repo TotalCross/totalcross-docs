@@ -1,8 +1,24 @@
+---
+description: TotalCross CLI and VS Code Plugin
+---
+
 # 2. Setting up Environment
 
-We recommend the plugin for VS Code as it is simple, light and complete for developing totalcross projects, with it you can create, package, deploy and deploy&run \(for linux arm only\).
+In order to turn your development environment very much fast and easy, we offer two tools for helping setting up projects since creation to deploy to devices. These tools are: i\) **TotalCross VS Code Plugin** and ii\) **TotalCross CLI Tool**. As we you know each developer has his/her favorite IDE we provide, besides the plugin for **VS Code**, a CLI Tool that can be used with any Java IDE i.e., **IntelIJ**, **Eclipse**, **Netbeans** and  **VS Code** as well. Thus chose on one of the options bellow to get your development environment set up.
 
-In this tutorial we will show you how to install VS Code on Linux, Windows and Mac OS X and how to install the Totalcross plugin.
+## Installing TotalCross CLI Tool
+
+Installing our CLI tool is pretty simple, you just have to get [Node.js](https://nodejs.org/) installed in your machine an then type in your terminal:
+
+```text
+npm install -g totalcross-cli
+```
+
+{% hint style="success" %}
+And Voilá!  🎉🥂🍾 
+
+You have TotalCross CLI tool installed and ready to use.
+{% endhint %}
 
 ## **Installing VS Code**
 
@@ -42,7 +58,7 @@ For more information access: [https://code.visualstudio.com/docs/setup/mac](http
 
 Open VS Code and go to Extensions.
 
-![](../.gitbook/assets/image%20%2879%29.png)
+![](../.gitbook/assets/image%20%2880%29.png)
 
 Type in the TotalCross search bar.
 
@@ -50,7 +66,7 @@ Type in the TotalCross search bar.
 
 Click install.
 
-![](../.gitbook/assets/image%20%2881%29.png)
+![](../.gitbook/assets/image%20%2882%29.png)
 
 
 

@@ -79,7 +79,7 @@ To generate the provisioning profile, one must have before-hand to register new 
 
 ![](../../../.gitbook/assets/image%20%2832%29.png)
 
-![](../../../.gitbook/assets/image%20%2878%29.png)
+![](../../../.gitbook/assets/image%20%2879%29.png)
 
  In the sample above, I have choosen to go with the `Explicit App ID`, `com.totalcross.tcguide`. 
 

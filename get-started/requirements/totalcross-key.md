@@ -4,7 +4,7 @@
 
 Now, you can test the TC for a week, click [here](https://totalcross.com/download/en/). You might see the access key at your email:
 
-![](../../.gitbook/assets/image%20%2874%29.png)
+![](../../.gitbook/assets/image%20%2875%29.png)
 
 ### For TC client
 

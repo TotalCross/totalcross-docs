@@ -26,7 +26,7 @@ If you **don't know** how to create and configure a Maven project, log in below:
 
 * Create a package called **pushnotification\_firebase**, and then create a class with the same name. This class will be our **MainWindow**.
 
-![](../.gitbook/assets/image%20%2875%29.png)
+![](../.gitbook/assets/image%20%2876%29.png)
 
 Within the PushNotification\_Firebase, create a **static String** named **firebaseToken**. And within the method, we will use the command `FirebaseInstanceId.getInstance().GetToken();` to get the token. In addition, we'll add a message to be printed on the console to show the token. In the end, it will look like this:
 

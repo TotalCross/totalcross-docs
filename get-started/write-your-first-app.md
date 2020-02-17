@@ -1,6 +1,10 @@
+---
+description: Running your first application in TotalCross.
+---
+
 # 3. Your first app
 
-See how to run your first application in TotalCross.
+
 
 ## Creating Your First Application \(Hello World\)
 
