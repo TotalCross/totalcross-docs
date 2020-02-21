@@ -5,6 +5,7 @@
 * [FAQ](faq.md)
 * [Skia](skia.md)
 * [OpenGL](opengl.md)
+* [Creating an Issue](issues-guide.md)
 
 ## 📌 Get Started
 
