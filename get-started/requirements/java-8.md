@@ -63,7 +63,7 @@ Install brew, it is pretty easy and straightforward. Paste the following command
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Brew is a package manager for that easily allows you to install packages on macOS X, it is similar to the debian package manager apt-get. Paste the command bellow on you terminal and you will have the Java JDK 8 on your machine.
+Brew is a package manager that easily allows you to install packages on macOS X, it is similar to the debian package manager apt-get. Paste the command bellow on you terminal and you will have the Java JDK 8 on your machine.
 
 ```text
 brew tap AdoptOpenJDK/openjdk && brew install adoptopenjdk-openjdk8

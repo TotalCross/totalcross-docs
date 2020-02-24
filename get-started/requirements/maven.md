@@ -36,7 +36,17 @@ Next steps requires _administrator_ privileges.
 {% endtab %}
 
 {% tab title="macOS X" %}
-macOS X
+Install brew, it is pretty easy and straightforward. Paste the following command on your terminal.
+
+```text
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+Brew is a package manager that easily allows you to install packages on macOS X, it is similar to the debian package manager apt-get. Paste the command bellow on you terminal and you will have the Java JDK 8 on your machine.
+
+```text
+brew install maven 
+```
 {% endtab %}
 
 {% tab title="Linux \(Debian based\)" %}
