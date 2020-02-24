@@ -4,8 +4,6 @@ description: Running your first application in TotalCross.
 
 # 3. Your first app
 
-
-
 ## Creating Your First Application \(Hello World\)
 
 Creating your first application is really simple and straightforward. Once you have accomplished all the basic requirements, you will be able to run your first application in about 5 minutes. Thus, choose the environment that makes you feel more comfortable:
@@ -28,9 +26,19 @@ A new window with the new project structure will be open. Right click on the`Run
 {% endtab %}
 
 {% tab title="CLI" %}
-{% hint style="warning" %}
-The TotalCross CLI tool is under development. But don't worry, our awesome development team are going to get this done in the first week of february 2020 😁 . 
-{% endhint %}
+When you are finished [login](https://learn.totalcross.com/get-started/setting-up-environment-running-and-deploying), type at the terminal:
+
+```text
+sudo totalcross create
+```
+
+You will be asked for the following information that you will be typing into the terminal as they appear.
+
+![](../.gitbook/assets/createquestions.png)
+
+After answering the questions, your project will be created and ready to be developed. You can give a `ls` in the terminal to check if your project was created in a folder with the name of the project.
+
+![](../.gitbook/assets/createresult.png)
 {% endtab %}
 {% endtabs %}
 
@@ -48,9 +56,13 @@ After the package process is finished the target program will take place inside 
 {% endtab %}
 
 {% tab title="CLI" %}
-{% hint style="warning" %}
-The TotalCross CLI tool is under development. But don't worry, our awesome development team are going to get this done in the first week of february 2020 😁 . 
-{% endhint %}
+For package, write at the terminal :
+
+```text
+sudo totalcross package
+```
+
+Wait a minute. The result of the package will be in the folder `target/install/<platform>`.
 {% endtab %}
 {% endtabs %}
 
@@ -68,9 +80,19 @@ To do it open the project and press `F1` or `(CTRL + Shift + P)` and search for 
 {% endtab %}
 
 {% tab title="CLI" %}
-{% hint style="warning" %}
-The TotalCross CLI tool is under development. But don't worry, our awesome development team are going to get this done in the first week of february 2020 😁 . 
-{% endhint %}
+
+
+For deploy, write at the terminal :
+
+```text
+sudo totalcross deploy
+```
+
+You will be asked for the following information that you will be typing into the terminal as they appear.
+
+![](../.gitbook/assets/deploy.png)
+
+ 
 {% endtab %}
 {% endtabs %}
 

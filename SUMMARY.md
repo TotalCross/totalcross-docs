@@ -5,12 +5,13 @@
 * [FAQ](faq.md)
 * [Skia](skia.md)
 * [OpenGL](opengl.md)
+* [CLI](cli.md)
 * [Creating an Issue](issues-guide.md)
 
 ## 📌 Get Started
 
 * [1. Basic requirements](get-started/requirements/README.md)
-  * [TotalCross Key](get-started/requirements/totalcross-key.md)
+  * [Register](get-started/requirements/register.md)
   * [Java JDK 8](get-started/requirements/java-8.md)
   * [Maven](get-started/requirements/maven.md)
 * [2. Setting up Environment](get-started/setting-up-environment-running-and-deploying.md)

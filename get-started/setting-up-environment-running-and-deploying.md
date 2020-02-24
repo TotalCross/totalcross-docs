@@ -4,21 +4,33 @@ description: TotalCross CLI and VS Code Plugin
 
 # 2. Setting up Environment
 
-In order to turn your development environment very much fast and easy, we offer two tools for helping setting up projects since creation to deploy to devices. These tools are: i\) **TotalCross VS Code Plugin** and ii\) **TotalCross CLI Tool**. As we you know each developer has his/her favorite IDE we provide, besides the plugin for **VS Code**, a CLI Tool that can be used with any Java IDE i.e., **IntelIJ**, **Eclipse**, **Netbeans** and  **VS Code** as well. Thus chose on one of the options bellow to get your development environment set up.
+In order to turn your development environment very much fast and easy, we offer two tools for helping setting up projects since creation to deploy to devices. These tools are: i\) **TotalCross VS Code Plugin** and ii\) **TotalCross CLI Tool**. Thus chose on one of the options bellow to get your development environment set up.
 
-## Installing TotalCross CLI Tool
+## Login in TotalCross
 
-Installing our CLI tool is pretty simple, you just have to get [Node.js](https://nodejs.org/) installed in your machine an then type in your terminal:
+{% tabs %}
+{% tab title="CLI Tool " %}
+To login, write in the terminal:
 
 ```text
-npm install -g totalcross-cli
+totalcross login
 ```
 
-{% hint style="success" %}
-And Voilá!  🎉🥂🍾 
+Then write your e-mail and password already registered
 
-You have TotalCross CLI tool installed and ready to use.
+![](../.gitbook/assets/loginquestions.png)
+
+Ready! You are logged in.
+{% endtab %}
+
+{% tab title="VS Code" %}
+{% hint style="warning" %}
+Login with VS Code is still being developed.
 {% endhint %}
+{% endtab %}
+{% endtabs %}
+
+
 
 ## **Installing VS Code**
 
@@ -68,5 +80,5 @@ Click install.
 
 ![](../.gitbook/assets/image%20%2882%29.png)
 
-
+And done, the plugin is successfully installed! To know how to use click [here](https://learn.totalcross.com/get-started/write-your-first-app).
 

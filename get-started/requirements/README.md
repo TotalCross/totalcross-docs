@@ -8,7 +8,7 @@ description: Setting up
 
 The three minimum requirements are:
 
-* [TotalCross Key](https://learn.totalcross.com/get-started/requirements/totalcross-key);
+* Register \(TotalCross CLI\);
 * [Java 8](https://learn.totalcross.com/get-started/requirements/java-8);
 * [Maven](https://learn.totalcross.com/get-started/requirements/maven);
 
