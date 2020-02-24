@@ -27,9 +27,7 @@ To view detail on any command, use: `totalcross [options] [command]`
 
 ## Feedback
 
-TotalCross CLI is still under active development and we’d love to hear your feedback.
-
- 
+TotalCross CLI is still under active development and we’d love to hear your feedback through [GitLab issues](https://gitlab.com/totalcross/TotalCross/issues/). 
 
 
 
