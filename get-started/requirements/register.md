@@ -13,10 +13,8 @@ This is the alpha version of the CLI. It is still in the testing phase and will 
 Installing our CLI tool is pretty simple, you just have to get [Node.js](https://nodejs.org/) installed in your machine an then type in your terminal:
 
 ```text
-sudo npm install -g totalcross-cli
+sudo npm install -g totalcross-npm-cli
 ```
-
-![](../../.gitbook/assets/instalandocli.png)
 
 {% hint style="success" %}
 And Voilá!  🎉🥂🍾 
