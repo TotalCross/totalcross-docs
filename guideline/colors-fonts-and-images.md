@@ -208,7 +208,7 @@ Another way would be to create an enum to stylize and only apply where you need 
 
 ## Material Constants
 
-The Material recommends a series of [size and spacing patterns](https://material.io/design/components/), so it is ideal to create a class within the useful package and assigning these patterns to the constants, as in the example below: 
+The Material recommends a series of [size and spacing patterns](https://material.io/components/), so it is ideal to create a class within the useful package and assigning these patterns to the constants, as in the example below: 
 
 {% code title="MaterialConstants" %}
 ```java
