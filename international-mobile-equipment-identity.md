@@ -14,7 +14,7 @@ This one is pretty simple, but also not so effective, you just need to generate 
 
 #### Mobile Device Management
 
-For this you normally need a software solution that has management features for private mobile device vendors and as of yet, TotalCross does not support the MDM implementation.
+For this you normally need a software solution that has management features for private mobile device vendors and as of yet, TotalCross does not support the MDM implementation. If you believe that it is necessary to implement this feature, please [contact us](mailto:vaneska.sousa@totalcross.com).
 
 ### What we recommed: Token based authentication
 
