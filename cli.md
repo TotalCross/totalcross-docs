@@ -6,6 +6,16 @@ As we you know each developer has his/her favorite IDE we provide a CLI Tool tha
 This is the alpha version. It is still in the testing phase and will be launched on 02/24/2020
 {% endhint %}
 
+## Installation
+
+Run `npm install --global totalcross-npm-cli`  you will need [NodeJS](https://nodejs.org/en/) installed!
+
+![](.gitbook/assets/image%20%28106%29.png)
+
+{% hint style="info" %}
+This is also useful for updating!
+{% endhint %}
+
 ## Usage
 
 ### **Commands**
