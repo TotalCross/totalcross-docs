@@ -2,9 +2,9 @@
 
 > "**IMEI** is short for International Mobile Equipment Identity and is a unique **number** given to every single mobile phone, typically found behind the battery. **IMEI numbers** of cellular phones connected to a GSM network are stored in a database \(EIR - Equipment Identity Register\) containing all valid mobile phone equipment."
 
-As of Android 10 \(API Level 29\) Google has dropped support to `getImei()`. This decision was taken because of their privacy policy, on this API Level, third parties - us - can't use it anymore. Thus, from the TotalCross ethical point of view,   we can't provide access to this information through our Android VM's anymore. Despite this can cause some issues with the way some TotalCross applications uses IMEI to identify end users, these same users can feel more secure, knowing his privacy is kept safe. You can find more info here: [https://developer.android.com/about/versions/10/privacy/changes\#randomized-mac-addresses](https://developer.android.com/about/versions/10/privacy/changes#randomized-mac-addresses).
+As of Android 10 \(API Level 29\) Google has dropped support to `getImei()`. This decision was taken because of their **privacy policy**, on this API Level, t**hird parties - us - can't use it anymore**. Thus, from the TotalCross ethical point of view, we can't provide access to this information through our Android VM's anymore. Despite this can cause some issues with the way some TotalCross applications uses IMEI to identify end users, these same users can feel more secure, knowing his privacy is kept safe. You can find more info here: [https://developer.android.com/about/versions/10/privacy/changes\#randomized-mac-addresses](https://developer.android.com/about/versions/10/privacy/changes#randomized-mac-addresses).
 
-Thus, in the next session we are going to show some alternatives to the IMEI in regarding to deal with the problem of identifying end users. 
+Thus, in the next session we are going to show some **alternatives** to the IMEI in regarding to deal with the problem of identifying end users. 
 
 ## How are people going around this?
 
