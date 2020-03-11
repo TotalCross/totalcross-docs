@@ -26,7 +26,7 @@ If you **don't know** how to create and configure a Maven project, log in below:
 
 * Create a package called **pushnotification\_firebase**, and then create a class with the same name. This class will be our **MainWindow**.
 
-![](../.gitbook/assets/image%20%2876%29.png)
+![](../.gitbook/assets/image%20%2898%29.png)
 
 Within the PushNotification\_Firebase, create a **static String** named **firebaseToken**. And within the method, we will use the command `FirebaseInstanceId.getInstance().GetToken();` to get the token. In addition, we'll add a message to be printed on the console to show the token. In the end, it will look like this:
 
@@ -70,7 +70,7 @@ the chosen Id must always be a string with 4 letters. This id is very important 
 
 * Finally, check if your project has a folder named **target**, otherwise, create a folder named target in the same location as the pom.xml, src, and .settings file.
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
 ### Creating a Firebase project
 

@@ -12,15 +12,15 @@ TotalCross uses Maven to automate compilation, being quick and easy to use.
 
 This article targets users of Visual Studio Code and other IDEs that do not have Maven integration.
 
-## Installation guide
+## Guide
 
 {% tabs %}
 {% tab title="Windows" %}
 Next steps requires _administrator_ privileges.
 
-**Step 1:** go to [link](http://maven.apache.org/download.cgi). Download the latest Maven .zip:
+**Step 1:** go to ****[**link**](http://maven.apache.org/download.cgi). Download the latest Maven .zip:
 
-![](../../.gitbook/assets/maven_step_1.png)
+![](../../.gitbook/assets/image%20%2864%29.png)
 
 **Step 2:** unzip into _C:/Program Files/Maven/_ \(recommended\);
 
@@ -28,11 +28,17 @@ Next steps requires _administrator_ privileges.
 
 **Step 4:** set _MAVEN\_HOME_ environment variable:
 
-`C: \> setx MAVEN_HOME "C:\Program Files\Maven\apache-maven-3.6.3-src"`
+`C:\> setx MAVEN_HOME "C:\Program Files\Maven\apache-maven-3.6.3"`
 
 **Step 5:** add _MAVEN\_HOME_ and bin subfolder to PATH :
 
-`C: \> setx PATH "%MAVEN_HOME%;%MAVEN_HOME%\bin;%PATH%;"`
+`C:\> setx PATH "%MAVEN_HOME%;%MAVEN_HOME%\bin;%PATH%;"`
+
+**Step 6:** reopen  your CMD \(command line prompt\) and try:
+
+`C:\> mvn -version`
+
+if response is `Apache Maven 3.6.3` you installed everything correctly.
 {% endtab %}
 
 {% tab title="macOS X" %}

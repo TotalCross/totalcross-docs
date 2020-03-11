@@ -12,12 +12,11 @@
 ## 📌 Get Started
 
 * [1. Basic requirements](get-started/requirements/README.md)
-  * [Register](get-started/requirements/register.md)
   * [Java JDK 8](get-started/requirements/java-8.md)
   * [Maven](get-started/requirements/maven.md)
 * [2. Setting up Environment](get-started/setting-up-environment-running-and-deploying.md)
-* [3. Your first app](get-started/write-your-first-app.md)
-* [4. Learn more](get-started/learn-more.md)
+* [3. Test Drive](get-started/test-drive.md)
+* [4. Write your first app](get-started/4.-write-your-first-app.md)
 
 ## 📖 Learn TotalCross
 

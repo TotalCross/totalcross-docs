@@ -13,19 +13,19 @@ The choice of Java as a language for development was not occasional, but due to 
 **It is one of the largest development communities in the world!**
 {% endhint %}
 
-## Installation guide
+## Guide
 
 {% tabs %}
 {% tab title="Windows" %}
-**Step 1:** go to [link](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). Accept license agreement and download latest Java 8 JDK \(32 or 64 bit\) for Windows:
+**Step 1:** go to ****[**link**](https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html). Accept license agreement and download latest Java 8 JDK \(32 or 64 bit\) for Windows:
 
-![](../../.gitbook/assets/step_1.png)
+![](../../.gitbook/assets/image%20%2831%29.png)
 
 {% hint style="info" %}
 Requires an Oracle account
 {% endhint %}
 
-**Step 2:** once the download is complete, run .exe for install. Click _Next_:
+**Step 2:** if download is complete, run .exe for install. Click _Next_:
 
 ![](../../.gitbook/assets/step_2.png)
 
@@ -45,13 +45,17 @@ Requires an Oracle account
 
 **Step 7:** set _JAVA\_HOME_ environment variable:
 
-`C: \> setx JAVA_HOME "C:\Program Files\Java\jdk1.8.0_231"`
+`C:\> setx JAVA_HOME "C:\Program Files\Java\jdk1.8.0_231"`
 
 **Step 8:** add  _JAVA\_HOME_ and subfolders to _PATH_ :
 
-`C: \> setx PATH "%JAVA_HOME%;%JAVA_HOME%\bin;%JAVA_HOME%\lib;%PATH%;"`
+`C:\> setx PATH "%JAVA_HOME%;%JAVA_HOME%\bin;%JAVA_HOME%\lib;%PATH%;"`
 
-## 
+**Step 9:** reopen  your CMD \(command line prompt\) and try:
+
+`C:\> echo %JAVA_HOME%`
+
+if response is `C:\Program Files\Java\jdk1.8.0_231` you installed everything correctly.
 {% endtab %}
 
 {% tab title="macOS X" %}

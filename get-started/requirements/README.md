@@ -6,9 +6,8 @@ description: Setting up
 
 ## Minimum
 
-The three minimum requirements are:
+The two minimum requirements are:
 
-* [Register \(TotalCross CLI\);](https://learn.totalcross.com/get-started/requirements/register)
 * [Java 8](https://learn.totalcross.com/get-started/requirements/java-8);
 * [Maven](https://learn.totalcross.com/get-started/requirements/maven);
 

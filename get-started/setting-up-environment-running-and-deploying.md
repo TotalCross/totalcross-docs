@@ -4,40 +4,22 @@ description: TotalCross CLI and VS Code Plugin
 
 # 2. Setting up Environment
 
-In order to turn your development environment very much fast and easy, we offer two tools for helping setting up projects since creation to deploy to devices. These tools are: i\) **TotalCross VS Code Plugin** and ii\) **TotalCross CLI Tool**. Thus chose on one of the options bellow to get your development environment set up.
+In order to turn your development environment very much fast and easy, we offer two tools for helping setting up projects since creation to deploy to devices. These tools are: 
 
-## Login in TotalCross
+1. **TotalCross VS Code Plugin** 
+2. **TotalCross CLI Tool**
 
-{% tabs %}
-{% tab title="CLI Tool " %}
-To login, write in the terminal:
+Thus chose on one of the options bellow to get your development environment set up.
 
-```text
-totalcross login
-```
+## VS Code Plugin
 
-Then write your e-mail and password already registered
-
-![](../.gitbook/assets/loginquestions.png)
-
-Ready! You are logged in.
-{% endtab %}
-
-{% tab title="VS Code" %}
-{% hint style="warning" %}
-Login with VS Code is still being developed.
-{% endhint %}
-{% endtab %}
-{% endtabs %}
-
-
-
-## **Installing VS Code**
+### Installing VS Code
 
 {% tabs %}
 {% tab title="Linux" %}
-The easiest way to install Visual Studio Code for Debian / Ubuntu based distributions by opening the .deb package via Software Center GUI. If your distribution is debian based download your VS Code .deb Package in [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download) and install it. If you prefer to install using your terminal, type the command: `sudo apt-get install code`  
+The easiest way to install Visual Studio Code for Debian / Ubuntu based distributions by opening the .deb package via Software Center GUI. If your distribution is debian based download your VS Code .deb Package in [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download) and install it. If you prefer to install using your terminal, type the command: `sudo apt-get install code`
 
+![](../.gitbook/assets/image%20%2842%29.png)
 
 For more information access: [https://code.visualstudio.com/docs/setup/linux](https://code.visualstudio.com/docs/setup/linux)
 {% endtab %}
@@ -59,26 +41,45 @@ brew cask install visual-studio-code
 ```
 {% endhint %}
 
-  
-
-
 For more information access: [https://code.visualstudio.com/docs/setup/mac](https://code.visualstudio.com/docs/setup/mac)
 {% endtab %}
 {% endtabs %}
 
-## **Installing plugin**
+### **Installing Plugin**
 
-Open VS Code and go to Extensions.
+**Step 1:** open VS Code and go to _Extensions_.
 
-![](../.gitbook/assets/image%20%2880%29.png)
+![](../.gitbook/assets/extensions.gif)
 
-Type in the TotalCross search bar.
+**Step 2:** type TotalCross in the search bar and  click to install.
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](../.gitbook/assets/totalcross.gif)
 
-Click install.
+Done, the plugin is successfully installed! To know how to use click [here](https://learn.totalcross.com/get-started/write-your-first-app).
+
+## CLI Tool
+
+{% hint style="warning" %}
+This is the alpha version of the CLI. It is still in the testing phase and will be launched on 02/24/2020.
+{% endhint %}
+
+Installing our CLI tool is pretty simple, you just have to get [Node.js](https://nodejs.org/) installed in your machine an then.
+
+**Step 1:** type in your terminal:
 
 ![](../.gitbook/assets/image%20%2882%29.png)
 
-And done, the plugin is successfully installed! To know how to use click [here](https://learn.totalcross.com/get-started/write-your-first-app).
+{% hint style="danger" %}
+You may need to run with privileges
+{% endhint %}
+
+**Step 2:** verify your installation:
+
+![](../.gitbook/assets/image%20%2827%29.png)
+
+{% hint style="success" %}
+And Voilá!  🎉🥂🍾 
+
+You have TotalCross CLI tool installed and ready to use. To know how to use click [here](https://learn.totalcross.com/get-started/write-your-first-app).
+{% endhint %}
 
