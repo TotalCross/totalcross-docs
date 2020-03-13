@@ -9,7 +9,7 @@ description: Understand our git workflow
 There are some types of branches in our repository, they are:
 
 * **Feature**: used to implement new features. Can be started from an issue. Started at the source of the problem \(commit\) from the source version. The prefix is `feature-`;
-* **Fix**: used to fix bugs and code smells. Can be started from an issue. Started at the source of the problem \(commit\) from the source version. Fix takes precedence over the feature and should be resolved quickly and has the same process. The prefix is `fix-`;
+* **Fix**: used to fix bugs and code smells. Can be started from an issue. Started at the source of the problem \(commit\) from the source version. Fix takes precedence over the feature and should be resolved quickly and has the same process. The prefix is: `fix-`;
 * **Hotfix**: special branches for cases of emergency corrections, are used to quickly patch production releases. The prefix is `hotfix-`;
 * **Develop**: **WIP**
 * **Master**: **WIP**
