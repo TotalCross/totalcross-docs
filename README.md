@@ -16,14 +16,15 @@ Our vision is **to create the next generation of cross-platform tools** and help
 
 ## Supported Platforms
 
-* **Android** 4.0.3 and above \(API level 15\)
-* **iOS** 8.0 and above.
-* **Hand Held** \(Honeywell, Zebra, etc\).
-* **Windows** XP and above.
-* **Linux** 32 bits \(Debian distribution only\).
-* **Java** applet \(JDK 1.1 and above\)
-* **Raspiberry PI**
-* **Toradex** 
+* **Android** 4.0.3 and above \(API level 15\);
+* **iOS** 8.0 and above;
+* **Hand Held** \(Honeywell, Zebra, etc\);
+* **Windows** XP and above;
+* **Linux** 32 and 64 bits;
+* **Java** applet \(JDK 1.1 and above\);
+* **Raspberry PI;**
+* **Toradex;**
+* **Beaglebone**. 
 
 {% hint style="success" %}
 The choice of Java as a language for development was not occasional, but due to the fact that of the **21 million existing developers** in the world, **9 million are Java developers**, according to the Global Developers Population and Demographic Study in 2016.   
