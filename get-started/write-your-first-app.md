@@ -18,7 +18,7 @@ How about writing your first TotalCross code? In the next sections, you will nee
 Create a new project called _MyFirstApp_ and go to `MyFirstApp > src > main > java > com > totalcross` , the file `MyFirstApp.java` it will be where you will build the code. Remove these lines of the project, before init next Steps:
 
 ```java
-Label helloWord = new Label('Hello World!');
+Label helloWord = new Label("Hello World!");
 add(helloWord, CENTER, CENTER);
 ```
 
@@ -87,8 +87,8 @@ private Image imgBack, imgLogo;
 You should now import the image using the builder.
 
 ```java
-imgBack = new Image('images/imagem-template-01.png');
-imgLogo = new Image('images/logo-branca.png');
+imgBack = new Image("images/imagem-template-01.png");
+imgLogo = new Image("images/logo-branca.png");
 ```
 
 To be able to change the image parameters, it is necessary to use another `ImageControl` object adding its library.
@@ -153,13 +153,13 @@ import totalcross.ui.gfx.Color;
 ...
 
 // Defining characteristics
-Title = new Label('Registration Form');
+Title = new Label("Registration Form");
 Title.transparentBackground = true; 
 // Make background transparent
 Title.setForeColor(Color.WHITE); 
 
 // Changes the color of the object
-Gender = new Label('Gender');
+Gender = new Label("Gender");
 Gender.transparentBackground = true;
 Gender.setForeColor(Color.WHITE);
 
@@ -183,7 +183,7 @@ private Edit FullName, Date;
 
 // Defining characteristics
 FullName = new Edit();
-FullName.caption = 'Full Name';
+FullName.caption = "Full Name";
 // Changes what is written in the capture state
 FullName.captionColor = Color.WHITE; 
 // Changes the object’s color in the capture state
@@ -191,7 +191,7 @@ FullName.transparentBackground = true;
 FullName.setForeColor(Color.WHITE);
 
 Date = new Edit();
-Date.caption = 'Birth Day';
+Date.caption = "Birth Day";
 Date.captionColor = Color.WHITE;
 Date.setMode(Edit.DATE, true); 
 // Change capture mode to date
@@ -218,18 +218,18 @@ When clicked, the check generates a wave that propagates from the clicked point 
 
 ```java
 // Defining characteristics
-subject1 = new Check('Male');
+subject1 = new Check("Male");
 subject1.transparentBackground = true;
 subject1.setForeColor(Color.WHITE);
 subject1.effect = null; 
 
 // Turn off click effect
-subject2 = new Check('Female');
+subject2 = new Check("Female");
 subject2.transparentBackground = true;
 subject2.setForeColor(Color.WHITE);
 subject2.effect = null;
 
-subject3 = new Check('Other');
+subject3 = new Check("Other");
 subject3.transparentBackground = true;
 subject3.setForeColor(Color.WHITE);
 subject3.effect = null;
@@ -259,13 +259,13 @@ private Button Finish,Clear;
 The colors of the buttons will be changed to contrast with the red background.
 
 ```java
-Finish = new Button('Submit');
+Finish = new Button("Submit");
 Finish.setForeColor(Color.WHITE);
 Finish.borderColor = Color.WHITE; 
 // Changes the border color
 Finish.transparentBackground = true;
 
-Clear = new Button('Clear');
+Clear = new Button("Clear");
 Clear.setForeColor(Color.WHITE);
 Clear.borderColor = Color.WHITE;
 Clear.transparentBackground = true;

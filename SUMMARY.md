@@ -49,6 +49,14 @@
 * [Relative Positioning](guideline/hbox-and-vbox.md)
 * [Best practices to improve project maintenance](guideline/colors-fonts-and-images.md)
 
+## ✊🏻 Contribution
+
+* [Branch workflow](contribution/branch-workflow.md)
+
+## ✍️ Writing the docs
+
+* [Components](writing-the-docs/components.md)
+
 ## Components
 
 * [Side Menu](components/side-menu.md)

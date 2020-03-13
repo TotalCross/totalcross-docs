@@ -74,7 +74,7 @@ Creating your first application is really simple and straightforward. Once you h
 
 ![](../.gitbook/assets/create2.gif)
 
-**Step 3:** _ArtifactId is the name of your application, in this example it_ will be `HelloWorld`. Select the latest version of TotalCross SDK and choose whatever platform you intend to deploy an application.
+**Step 3:** _ArtifactId_ is the name of your application, in this example it will be `HelloWorld`. Select the latest version of TotalCross SDK and choose whatever platform you intend to deploy an application.
 
 ![](../.gitbook/assets/create3.gif)
 
