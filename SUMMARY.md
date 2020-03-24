@@ -23,14 +23,14 @@
 * [Local Database - SQLite](learn-totalcross/how-to-store-data-sqlite.md)
 * [Web Services](learn-totalcross/how-to-receive-send-data-webservice.md)
 * [Device Simulator](learn-totalcross/device-simulator.md)
-* [Deploy Your App](learn-totalcross/deploy-your-app-android-ios-and-windows/README.md)
-  * [TotalCross SDK](learn-totalcross/deploy-your-app-android-ios-and-windows/totalcross-sdk.md)
-  * [Environment Variables in IDE](learn-totalcross/deploy-your-app-android-ios-and-windows/environment-configuration/README.md)
-    * [Eclipse](learn-totalcross/deploy-your-app-android-ios-and-windows/environment-configuration/eclipse.md)
-    * [IntelliJ](learn-totalcross/deploy-your-app-android-ios-and-windows/environment-configuration/intellij.md)
-  * [Deploy your app with a dependecy TC](learn-totalcross/deploy-your-app-android-ios-and-windows/deploy-your-app-with-a-dependecy-tc.md)
-  * [Deploy iOS](learn-totalcross/deploy-your-app-android-ios-and-windows/deploy-ios/README.md)
-    * [Using Development certificate to test your apps](learn-totalcross/deploy-your-app-android-ios-and-windows/deploy-ios/using-development-certificate-to-test-your-apps.md)
+* [Package your app from scratch](learn-totalcross/package-your-app-from-scratch/README.md)
+  * [TotalCross SDK](learn-totalcross/package-your-app-from-scratch/totalcross-sdk.md)
+  * [Environment Variables in IDE](learn-totalcross/package-your-app-from-scratch/environment-configuration/README.md)
+    * [Eclipse](learn-totalcross/package-your-app-from-scratch/environment-configuration/eclipse.md)
+    * [IntelliJ](learn-totalcross/package-your-app-from-scratch/environment-configuration/intellij.md)
+  * [Deploy your app with a dependecy TC](learn-totalcross/package-your-app-from-scratch/deploy-your-app-with-a-dependecy-tc.md)
+  * [Deploy iOS](learn-totalcross/package-your-app-from-scratch/deploy-ios/README.md)
+    * [Using Development certificate to test your apps](learn-totalcross/package-your-app-from-scratch/deploy-ios/using-development-certificate-to-test-your-apps.md)
 
 ## 🌌 Guides
 

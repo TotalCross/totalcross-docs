@@ -95,7 +95,7 @@ Creating your first application is really simple and straightforward. Once you h
 {% endtabs %}
 
 {% hint style="success" %}
-Now you know how to create TotalCross projects
+Now you know how to create TotalCross projects!
 {% endhint %}
 
 ## Package
@@ -124,8 +124,8 @@ As Totalcross is a cross platform SDK, packaging is one of the most important ph
 {% endtab %}
 {% endtabs %}
 
-{% hint style="success" %}
-Now you know how to package TotalCross projects!
+{% hint style="warning" %}
+Did you have any trouble or want to understand package process? See out [this guide](https://learn.totalcross.com/learn-totalcross/package-your-app-from-skretch)!
 {% endhint %}
 
 ## Deploy
