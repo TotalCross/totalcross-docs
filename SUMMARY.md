@@ -23,6 +23,7 @@
 * [Local Database - SQLite](learn-totalcross/how-to-store-data-sqlite.md)
 * [Web Services](learn-totalcross/how-to-receive-send-data-webservice.md)
 * [Device Simulator](learn-totalcross/device-simulator.md)
+* [Debugging WinCE on VS 2008](learn-totalcross/debugging-wince-on-vs-2008.md)
 * [Package your app from scratch](learn-totalcross/package-your-app-from-scratch/README.md)
   * [TotalCross SDK](learn-totalcross/package-your-app-from-scratch/totalcross-sdk.md)
   * [Environment Variables in IDE](learn-totalcross/package-your-app-from-scratch/environment-configuration/README.md)
