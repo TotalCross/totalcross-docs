@@ -2,7 +2,7 @@
 description: All notable changes to this project will be documented in this file.
 ---
 
-# TotalCross Change Log
+# TotalCross Changelog
 
 ## 5.1.2 - 2019-08-05
 
