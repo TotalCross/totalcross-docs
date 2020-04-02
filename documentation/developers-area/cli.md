@@ -58,7 +58,7 @@ Your TotalCross account has been created.
 
 **Step 2:** Type `totalcross login` and enter your email and password used during registration.
 
-![Login on CLI](../../.gitbook/assets/image%20%28113%29.png)
+![Login on CLI](../../.gitbook/assets/image%20%28124%29.png)
 
 {% hint style="success" %}
 Ready! You are logged in.
@@ -76,7 +76,7 @@ Write your first program.
 
 **Step 3:** After answering the questions, your project will be created and ready to be developed. Type ls to check if your project was created in a folder with the name of the project \(what you entered as project artifactID\).
 
-![](../../.gitbook/assets/image%20%28114%29.png)
+![](../../.gitbook/assets/image%20%28125%29.png)
 
 ### Package
 
@@ -86,28 +86,41 @@ Write your first program.
 
 **Step 3:** Run `totalcross package` 
 
-![](../../.gitbook/assets/image%20%28108%29.png)
+![](../../.gitbook/assets/image%20%28119%29.png)
 
 Step 4: Wait a minute or so. The result of the package will be in the folder `target/install/<platform>`
 
-![](../../.gitbook/assets/image%20%2886%29.png)
+![](../../.gitbook/assets/image%20%2897%29.png)
 
-### Deploy
+### Deploy & Run 
 
 {% hint style="warning" %}
-Deployment is working only for _linux arm_ programs. This feature performs the implementation and execution of the platform via ssh.
+Deploy is working only for _linux arm_ programs. This feature performs the implementation and execution of the platform via ssh.
 {% endhint %}
 
-**Step 1:** open your Terminal/CMD/Powershell
+{% tabs %}
+{% tab title="CLI" %}
+{% hint style="danger" %}
+In the version, TotalCross CLI v1.1.2 \(Alpha\), the deploy has been disabled for windows
+{% endhint %}
 
-**Step 2:** cd into your project folder
+**Step 1:** open your Terminal/CMD/Powershell.
 
-**Step 3:** run `totalcross deploy`, fill in the device information.
+**Step 2:** `cd` into your project folder.
 
-![](../../.gitbook/assets/image%20%2829%29.png)
+**Step 3:** run `totalcross deploy`, fill in the device information to deploy.
+
+**Step 4:** In `You want to run after deploy ?`, check `yes`, if you just want to deploy choose the `no`.
+
+![](../../.gitbook/assets/image%20%2889%29.png)
+
+  
+**Step 5:** see the result on the screen or with VNC
+{% endtab %}
+{% endtabs %}
 
 {% hint style="success" %}
-Now you know how to create, package and deploy using TotalCross.
+Now you know how to create, package, deploy and run using TotalCross.
 {% endhint %}
 
 ### Usage

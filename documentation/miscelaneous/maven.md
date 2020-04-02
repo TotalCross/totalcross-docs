@@ -20,7 +20,7 @@ Next steps requires _administrator_ privileges.
 
 **Step 1:** go to ****[**link**](http://maven.apache.org/download.cgi). Download the latest Maven .zip:
 
-![](../../.gitbook/assets/image%20%2868%29.png)
+![](../../.gitbook/assets/image%20%2876%29.png)
 
 **Step 2:** unzip into _C:/Program Files/Maven/_ \(recommended\);
 

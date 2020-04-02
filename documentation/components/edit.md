@@ -1,116 +1,188 @@
+---
+description: >-
+  An Edit is a field used to show and alter texts. Also known as UITextField on
+  Swift and input on HTML. There also is some variations, like Outlined Edit,
+  Calculator Edit, Password Edit, etc.
+---
+
 # Edit
 
-### Overview
+## Examples
 
-An Edit is a field used to show and alter texts. Also known as UITextFIeld on Swift and input on HTML. There also is some variations, like Outlined Edit, Calculator Edit, Password Edit, etc, that are shown on the example bellow.
+![](../../.gitbook/assets/image%20%2869%29.png)
 
-### Source Code
+In most applications is necessary to remove the background from the object and change the color of the element so that it is better viewed.
 
-{% code title="EditSample.java" %}
 ```java
-public class EditSample extends Container {
+package com.totalcross;
+import totalcross.sys.Settings;
+import totalcross.ui.Edit;
+import totalcross.ui.MainWindow;
+import totalcross.ui.dialog.MessageBox;
+import totalcross.ui.gfx.Color;
+import totalcross.util.UnitsConverter;
 
-	private ScrollContainer sc;
-	private Edit simpleEdit;
-	private Edit numericEdit;
-	private Edit calculatorEdit;
-	private Edit calendarEdit;
-	private Edit timerEdit;
-	private Edit passwordShowEdit;
-	private Edit passwordHidenEdit;
-	private Edit maskedEdit;
-	private MultiEdit multiEdit;
-	private OutlinedEdit outlinedEdit;
+public class HelloWorld extends MainWindow {
+    private Edit simpleEdit;
+    private int GAP = UnitsConverter.toPixels(DP +  15);
 
-	private final int H = UnitsConverter.toPixels(DP + 4);
-	private int GAP = UnitsConverter.toPixels(DP + 15);
-	private int focusColor = Color.GREEN;
+    public HelloWorld(){
+        setUIStyle(Settings.MATERIAL_UI);
+    }  
 
-	@Override
-	public void initUI() {
-		try {
-			Edit.useNativeNumericPad = false;
-			Settings.is24Hour = true;
-			UIColors.calculatorFore = Colors.BACKGROUND;
-			UIColors.numericboxBack = Colors.BACKGROUND;
-			UIColors.calendarBack = Colors.BACKGROUND;
-			UIColors.timeboxVisorBack = Colors.BACKGROUND;
-			sc = new ScrollContainer(false, true);
-			add(sc, LEFT, TOP, FILL, FILL);
+    @Override
+    public void initUI(){
+        try{
+            simpleEdit = new Edit();
+            simpleEdit.caption = "Simple Edit";
+            simpleEdit.transparentBackground = true;
+            simpleEdit.captionColor = Color.RED;
+            simpleEdit.setForeColor(Color.RED);
 
-			simpleEdit = new Edit();
-			simpleEdit.caption = "Simple Edit";
-			simpleEdit.setBackColor(Color.BRIGHT);
-			simpleEdit.transparentBackground = true;
-			
-			outlinedEdit = new OutlinedEdit();
-			outlinedEdit.caption = "OutlinedEdit";
-			outlinedEdit.captionColor = Color.getRGB(176, 46, 247);
-
-			multiEdit = new MultiEdit();
-			multiEdit.caption = "MultiEdit";
-			
-			numericEdit = new Edit();
-			numericEdit.caption = "NumericBox Edit";
-			numericEdit.setMode(Edit.CURRENCY);
-			numericEdit.setKeyboard(Edit.KBD_NUMERIC);
-
-			calculatorEdit = new Edit();
-			calculatorEdit.caption = "Calculator Edit";
-			calculatorEdit.setMode(Edit.CURRENCY, true);
-
-			calendarEdit = new Edit("99/99/99");
-			calendarEdit.caption = "Calendar Edit";
-			calendarEdit.setMode(Edit.DATE, true);
-
-			timerEdit = new Edit("99" + Settings.timeSeparator + "99" + Settings.timeSeparator + "99");
-			timerEdit.caption = "TimeBox Edit (24-hour format)";
-			TimeBox.hideIfInvalid = false;
-			timerEdit.setValidChars("0123456789AMP");
-			timerEdit.setMode(Edit.NORMAL, true);
-			timerEdit.setKeyboard(Edit.KBD_TIME);
-
-			passwordShowEdit = new Edit("");
-			passwordShowEdit.caption = "Password Edit (last character is shown)";
-			passwordShowEdit.setMode(Edit.PASSWORD);
-			passwordHidenEdit = new Edit("");
-			passwordHidenEdit.caption = "Password Edit (all characters are hidden)";
-			passwordHidenEdit.setMode(Edit.PASSWORD_ALL);
-
-			maskedEdit = new Edit("999.999.999-99");
-			maskedEdit.caption = "Masked Edit (999.999.999-99)";
-			maskedEdit.setMode(Edit.NORMAL, true);
-			maskedEdit.setValidChars(Edit.numbersSet);
-
-			noPredictionEdit = new Edit();
-			noPredictionEdit.caption = "No Prediction Edit";
-			noPredictionEdit.setPrediction(false);
-			
-			noPredictionMultiEdit = new MultiEdit();
-			noPredictionMultiEdit.caption = "No Prediction MultiEdit";
-			noPredictionMultiEdit.setPrediction(false);
-			
-			sc.add(simpleEdit, LEFT + GAP, AFTER + GAP);
-			sc.add(outlinedEdit, LEFT + GAP, AFTER + GAP);
-			sc.add(multiEdit, LEFT + GAP, AFTER + GAP, FILL - GAP, DP + 48);
-			sc.add(numericEdit, LEFT + GAP, AFTER + GAP);
-			sc.add(calculatorEdit, LEFT + GAP, AFTER + GAP);
-			sc.add(calendarEdit, LEFT + GAP, AFTER + GAP);
-			sc.add(timerEdit, LEFT + GAP, AFTER + GAP);
-			sc.add(passwordShowEdit, LEFT + GAP, AFTER + GAP);
-			sc.add(passwordHidenEdit, LEFT + GAP, AFTER + GAP);
-			sc.add(maskedEdit, LEFT + GAP, AFTER + GAP);
-			sc.add(noPredictionEdit, LEFT + GAP, AFTER + GAP);
-			sc.add(noPredictionMultiEdit, LEFT + GAP, AFTER + GAP, FILL - GAP, DP + 48);
-
-		} catch (Exception ee) {
-			MessageBox.showException(ee, true);
-		}
-	}
-
+            add(simpleEdit, LEFT + GAP, AFTER + GAP);
+        } catch (Exception e) {
+            MessageBox.showException(e, true);
+        }
+    }
 }
 ```
-{% endcode %}
+
+## Numeric edit
+
+![](../../.gitbook/assets/image%20%2862%29.png)
+
+In some situations, entry should be limited to numbers.
+
+```java
+package com.totalcross;
+import totalcross.sys.Settings;
+import totalcross.ui.Edit;
+import totalcross.ui.MainWindow;
+import totalcross.ui.dialog.MessageBox;
+import totalcross.util.UnitsConverter;
+
+public class HelloWorld extends MainWindow {
+
+    private Edit numericEdit;
+    private Edit calculatorEdit;
+    private int GAP = UnitsConverter.toPixels(DP +  15);
+    
+    public HelloWorld(){
+        setUIStyle(Settings.MATERIAL_UI);
+    }  
+    @Override
+    public void initUI(){
+        try{
+            numericEdit = new Edit();
+            numericEdit.caption =  "NumericBox Edit";
+            numericEdit.setMode(Edit.CURRENCY);
+            numericEdit.setKeyboard(Edit.KBD_NUMERIC);  
+            add(numericEdit, LEFT + GAP, AFTER + GAP);
+            
+            calculatorEdit =  new  Edit();
+            calculatorEdit.caption =  "Calculator Edit";
+            calculatorEdit.setMode(Edit.CURRENCY, true);
+            add(calculatorEdit, LEFT + GAP, AFTER + GAP);
+        } catch (Exception  ee) {
+            MessageBox.showException(ee, true);
+        }
+    }
+}
+```
+
+## Password Edit
+
+![](../../.gitbook/assets/image%20%2834%29.png)
+
+If the entry is a password, it should not be possible to see it.
+
+```java
+package com.totalcross;
+import totalcross.sys.Settings;
+import totalcross.ui.Edit;
+import totalcross.ui.MainWindow;
+import totalcross.ui.dialog.MessageBox;
+import totalcross.util.UnitsConverter;
+
+public class HelloWorld extends MainWindow {
+    private Edit passwordShowEdit;
+    private Edit passwordHidenEdit;
+    private int GAP = UnitsConverter.toPixels(DP +  15);
+
+    public HelloWorld(){
+        setUIStyle(Settings.MATERIAL_UI);
+    }  
+    @Override
+    public void initUI(){
+        try{
+            passwordShowEdit = new Edit();
+            passwordShowEdit.caption = "Password Edit (last character is shown)";
+            passwordShowEdit.setMode(Edit.PASSWORD);
+            add(passwordShowEdit, LEFT + GAP, AFTER + GAP);
+            
+            passwordHidenEdit =  new  Edit();
+            passwordHidenEdit.caption =  "Password Edit (all characters are hidden)";   
+            passwordHidenEdit.setMode(Edit.PASSWORD_ALL);
+            add(passwordHidenEdit, LEFT + GAP, AFTER + GAP);
+        }catch (Exception  ee) {
+            MessageBox.showException(ee, true);
+        }
+    }
+}
+```
+
+## Edit shapes
+
+![](../../.gitbook/assets/image%20%2829%29.png)
+
+To receive different input formats, which are not predefined in TotalCross.
+
+```java
+package com.totalcross;
+import totalcross.sys.Settings;
+import totalcross.ui.Edit;
+import totalcross.ui.MainWindow;
+import totalcross.ui.dialog.MessageBox;
+import totalcross.util.UnitsConverter;
+
+public class HelloWorld extends MainWindow {
+    private Edit calendarEdit;
+    private Edit timerEdit;
+    private Edit maskedEdit;
+    private int GAP = UnitsConverter.toPixels(DP +  15);
+
+    public HelloWorld(){
+        setUIStyle(Settings.MATERIAL_UI);
+    }  
+
+    @Override
+    public void initUI(){
+        try{
+            calendarEdit = new Edit("99/99/99");
+            calendarEdit.caption =  "Calendar Edit";
+            calendarEdit.setMode(Edit.DATE, true);
+            add(calendarEdit, LEFT + GAP, AFTER + GAP);
+
+            timerEdit = new Edit("99"  + Settings.timeSeparator +  "99"  + Settings.timeSeparator +  "99");
+            timerEdit.caption = "TimeBox Edit (24-hour format)";
+            timerEdit.setValidChars("0123456789AMP");
+            timerEdit.setMode(Edit.NORMAL, true);
+            timerEdit.setKeyboard(Edit.KBD_TIME);
+            add(timerEdit, LEFT + GAP, AFTER + GAP);
+
+            maskedEdit = new Edit("999.999.999-99");
+            maskedEdit.caption = "Masked Edit (999.999.999-99)";
+            maskedEdit.setMode(Edit.NORMAL, true);
+            maskedEdit.setValidChars(Edit.numbersSet);
+            add(maskedEdit, LEFT + GAP, AFTER + GAP);
+        }catch (Exception  ee){
+            MessageBox.showException(ee, true);
+        }
+    }
+}
+```
+
+## Behind the Class
 
 ### Attributes
 
