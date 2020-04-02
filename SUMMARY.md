@@ -6,9 +6,9 @@
 ## Documentation
 
 * [Get Started](documentation/get-started/README.md)
-  * [1. Install](documentation/get-started/1.-install.md)
-  * [2. Register](documentation/get-started/2.-resgister.md)
-  * [3. Hello World](documentation/get-started/3.-hello-world.md)
+  * [1. Install](documentation/get-started/install.md)
+  * [2. Register](documentation/get-started/register.md)
+  * [3. Hello World](documentation/get-started/hello-world.md)
 * [Components](documentation/components/README.md)
   * [Accordion](documentation/components/accordion-container.md)
   * [Aligned Labels](documentation/components/aligned-labels-container.md)
