@@ -7,7 +7,7 @@
 
 * [Get Started](documentation/get-started/README.md)
   * [1. Install](documentation/get-started/1.-install.md)
-  * [2. Resgister](documentation/get-started/2.-resgister.md)
+  * [2. Register](documentation/get-started/2.-resgister.md)
   * [3. Hello World](documentation/get-started/3.-hello-world.md)
 * [Components](documentation/components/README.md)
   * [Accordion](documentation/components/accordion-container.md)
