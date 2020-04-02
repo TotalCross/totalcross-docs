@@ -6,7 +6,7 @@ This guide is intended for devs who have gone through get started or have knowle
 
 * \*\*\*\*[**TotalCross SDK**](http://www.superwaba.net/SDKRegistrationService/)**;**
 * [**Environment variables configured**](https://app.gitbook.com/@totalcross/s/playbook/learn-totalcross/getting-started/environment-configuration)**;**
-* [**JDK installed**](https://app.gitbook.com/@totalcross/s/playbook/learn-totalcross/getting-started/basic-requirements)**.**
+* \*\*\*\*[**JDK installed**](../../miscelaneous/java-8.md)**.**
 
 ## Deploy
 
