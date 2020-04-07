@@ -69,6 +69,7 @@
   * [totalcross.sys](documentation/apis/totalcross.sys.md)
   * [Youtube API](documentation/apis/youtube-api.md)
 * [Developers Area](documentation/developers-area/README.md)
+  * [SQLite Encryption](documentation/developers-area/sqlite-encryption.md)
   * [Debugging WinCE on VS 2008](documentation/developers-area/debugging-wince-on-vs-2008.md)
   * [Branch workflow](documentation/developers-area/branch-workflow.md)
   * [CLI](documentation/developers-area/cli.md)
