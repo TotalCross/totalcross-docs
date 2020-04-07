@@ -9,11 +9,13 @@ description: >-
 
 ## Overview
 
-This guid will show you how to debug using an emulator on Visual Studio 2008 Professional Edition, it will not only help you see your application running on the device faster, but also help finding and identifying a bug, which should better your experience while using this.
+This guide will show you how to debug using an emulator on Visual Studio 2008 Professional Edition, it will not only help you see your application running on the device faster, but also help finding and identifying a bug, which should better your experience while using this.
 
-### Requirements
+## Requirements
 
 Visual Studio 2008 Professional Edition
+
+## Debug in 7 steps
 
 **Step 1:** [package](https://learn.totalcross.com/get-started/test-drive#package) your application to get the .exe and .tcz of your application:
 
@@ -43,5 +45,7 @@ Visual Studio 2008 Professional Edition
 
 ![Running the debug!](../../.gitbook/assets/running_debug.gif)
 
-
+{% hint style="success" %}
+You can now debug applications for WinCE in Visual Studio 2008!
+{% endhint %}
 
