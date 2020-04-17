@@ -29,7 +29,7 @@ TCNI is a foreign function interface programming framework that enables TotalCro
 
 Click here to reach this topic on [github](https://github.com/TotalCross/totalcross/issues/1).
 
-#### Organize TCVM, TC API Java and Litebase in different repositories on github
+#### Organize TCVM, TC Java API and Litebase in different repositories on github
 
 From version 6 [TotalCross SDK is open source](https://github.com/TotalCross/totalcross/). Our goal is to make contributing the simplest, facilitating the understanding of what makes up the TC SDK.
 
@@ -37,7 +37,7 @@ Click here to reach this topic on [github](https://github.com/TotalCross/totalcr
 
 #### **Nightly builds**
 
-Continuous integration is an important point and we are working to implement it more and more. 
+_Continuous integration_ is an important point and we are working to implement it more and more. 
 
 We will start with [nightly builds](https://blog.testproject.io/2019/10/14/what-are-the-benefits-of-having-nightly-builds/), a feature that consists of automatically generating realizations during the night, avoiding wait by TotalCross users for the release of [minor ](https://semver.org/)versions to access implemented fixes and features.
 
@@ -58,7 +58,7 @@ Click on the item to be directed to the github discussion**.**
 * [Improve error warnings in the VSCode plugin and CLI;](https://github.com/TotalCross/totalcross/issues/10)
 * [Allow using the camera via streaming;](https://github.com/TotalCross/totalcross/issues/9)
 * [Add Lambda](https://github.com/TotalCross/totalcross/issues/5);
-* Have publics dists of [totalcross-yocto](https://github.com/TotalCross/totalcross/issues/7) and [totalcross-torizon](https://github.com/TotalCross/totalcross/issues/8);
+* Have publics distros of [totalcross-yocto](https://github.com/TotalCross/totalcross/issues/7) and [totalcross-torizon](https://github.com/TotalCross/totalcross/issues/8);
 * [Allow registration and login with GitHub on TotalCross](https://github.com/TotalCross/totalcross/issues/4);
 
 
