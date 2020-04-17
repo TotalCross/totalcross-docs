@@ -19,7 +19,7 @@ The choice of Java as a language for development was not occasional, but due to 
 {% tab title="Windows" %}
 **Step 1:** go to ****[**link**](https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html). Accept license agreement and download latest Java 8 JDK \(32 or 64 bit\) for Windows:
 
-![](../../.gitbook/assets/image%20%2835%29.png)
+![](../../.gitbook/assets/image%20%2837%29.png)
 
 {% hint style="info" %}
 Requires an Oracle account

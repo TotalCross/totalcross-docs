@@ -10,7 +10,7 @@ description: >-
 
 To adapt the component to the style of the application it is often necessary to change its colors.
 
-![](../../.gitbook/assets/image%20%2867%29.png)
+![](../../.gitbook/assets/image%20%2870%29.png)
 
 ```java
 package com.totalcross;
@@ -45,7 +45,7 @@ public class HelloWorld extends MainWindow {
 
 ## Full Button
 
-![](../../.gitbook/assets/image%20%2863%29.png)
+![](../../.gitbook/assets/image%20%2865%29.png)
 
 Make the button the width of the screen.
 
@@ -74,7 +74,7 @@ public class HelloWorld extends MainWindow {
 
 ## Button shapes
 
-![](../../.gitbook/assets/image%20%2843%29.png)
+![](../../.gitbook/assets/image%20%2845%29.png)
 
 Modify the button edges.
 
@@ -113,7 +113,7 @@ public class HelloWorld extends MainWindow{
 
 ## Sizes
 
-![](../../.gitbook/assets/image%20%2894%29.png)
+![](../../.gitbook/assets/image%20%2897%29.png)
 
 Change the size of the buttons.
 
@@ -153,7 +153,7 @@ public class HelloWorld extends MainWindow {
 
 ## Button image
 
-![](../../.gitbook/assets/image%20%2879%29.png)
+![](../../.gitbook/assets/image%20%2882%29.png)
 
 Add an image to the button.
 

@@ -9,7 +9,7 @@ description: >-
 
 ## Examples
 
-![](../../.gitbook/assets/image%20%2869%29.png)
+![](../../.gitbook/assets/image%20%2872%29.png)
 
 In most applications is necessary to remove the background from the object and change the color of the element so that it is better viewed.
 
@@ -49,7 +49,7 @@ public class HelloWorld extends MainWindow {
 
 ## Numeric edit
 
-![](../../.gitbook/assets/image%20%2862%29.png)
+![](../../.gitbook/assets/image%20%2864%29.png)
 
 In some situations, entry should be limited to numbers.
 
@@ -92,7 +92,7 @@ public class HelloWorld extends MainWindow {
 
 ## Password Edit
 
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](../../.gitbook/assets/image%20%2836%29.png)
 
 If the entry is a password, it should not be possible to see it.
 
@@ -133,7 +133,7 @@ public class HelloWorld extends MainWindow {
 
 ## Edit shapes
 
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](../../.gitbook/assets/image%20%2830%29.png)
 
 To receive different input formats, which are not predefined in TotalCross.
 

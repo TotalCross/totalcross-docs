@@ -19,6 +19,7 @@
   * [Dynamic Scroll](documentation/components/dynamic-scroll.md)
   * [Edit](documentation/components/edit.md)
   * [Floating Button](documentation/components/floating-button.md)
+  * [Gpiod](documentation/components/gpiod.md)
   * [Grid](documentation/components/grid.md)
   * [GridContainer](documentation/components/gridcontainer.md)
   * [Image](documentation/components/image.md)
