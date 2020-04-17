@@ -10,7 +10,7 @@ Our roadmap shares our current **focus**: what we are presently working on and w
 
 ## What's coming?
 
-Please, feel free to contribute with your questions or suggestions for each topic via [github](https://github.com/TotalCross/totalcross/issues?q=is%3Aissue+is%3Aopen+label%3AFeature). We have lively discussions happening there.
+Please, feel free to contribute with your questions or suggestions for each topic via [GitHub](https://github.com/TotalCross/totalcross/issues?q=is%3Aissue+is%3Aopen+label%3AFeature). We have lively discussions happening there.
 
 ### Highlights
 
@@ -27,13 +27,13 @@ To implement this, we divided it into two macro activities:
 TCNI is a foreign function interface programming framework that enables TotalCross/Java code running in a Java virtual machine to call and be called by native applications and libraries written in other languages such as C, C ++ and assembly.\)
 {% endhint %}
 
-Click here to reach this topic on [github](https://github.com/TotalCross/totalcross/issues/1).
+Click here to reach this topic on [GitHub](https://github.com/TotalCross/totalcross/issues/1).
 
-#### Organize TCVM, TC Java API and Litebase in different repositories on github
+#### Organize TCVM, TC Java API and Litebase in different repositories on GitHub
 
 From version 6 [TotalCross SDK is open source](https://github.com/TotalCross/totalcross/). Our goal is to make contributing the simplest, facilitating the understanding of what makes up the TC SDK.
 
-Click here to reach this topic on [github](https://github.com/TotalCross/totalcross/issues/2).
+Click here to reach this topic on [GitHub](https://github.com/TotalCross/totalcross/issues/2).
 
 #### **Nightly builds**
 
@@ -41,7 +41,7 @@ _Continuous integration_ is an important point and we are working to implement i
 
 We will start with [nightly builds](https://blog.testproject.io/2019/10/14/what-are-the-benefits-of-having-nightly-builds/), a feature that consists of automatically generating realizations during the night, avoiding wait by TotalCross users for the release of [minor ](https://semver.org/)versions to access implemented fixes and features.
 
-Click here to reach this topic on [github](https://github.com/TotalCross/totalcross/issues/3).
+Click here to reach this topic on [GitHub](https://github.com/TotalCross/totalcross/issues/3).
 
 #### Documentation
 
@@ -51,7 +51,7 @@ Feel free to contribute with your suggestions creating an [issue on GitHub](http
 
 ### **Others**
 
-Click on the item to be directed to the github discussion**.**
+Click on the item to be directed to the GitHub discussion**.**
 
 * [Custom Cam; ](https://github.com/TotalCross/totalcross/issues/6)
 * [Sharing information between apps for Android and iOS;](https://github.com/TotalCross/totalcross/issues/11)
