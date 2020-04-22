@@ -4,6 +4,44 @@ description: All notable changes to this project will be documented in this file
 
 # TotalCross Changelog
 
+## 6.0.4 - 2020-04-20
+
+#### Highlights
+
+* Fixed build for all available platforms on public repository
+* Skia for Android
+
+#### Fixed
+
+* Build: Added some build.xml for Ant build \(without ProGuard\)
+* Fixed Android buildType
+* Fixed WinCE, Win32, Android and Linux x86-64 VM build
+* Fix Linux x86-64 launcher \(_x-sharedlib_ to _x-executable_\)
+* Added iOS files
+
+#### Changed
+
+* Added Skia for Android
+* Added tag name to XML's ContentHandler
+* ~~SDL statically linked~~ SDL dynamically linked for Linux x86-64
+* Disabled screen shifting when keyboard is over edit \(not working on Android\)
+
+## 5.1.4 to 6.0.3
+
+The remaining changelogs will be added later
+
+## 5.1.3 - 2019-08-28
+
+#### Fixed
+
+* Edit
+  * Fixed bug with masks containing two consecutive non-alphanumeric characters - [TotalCross\#581](https://gitlab.com/totalcross/TotalCross/issues/581#note_203298404)
+  * When used for dates, the calendar now properly opens at the date informed on the edit - TotalCross\#550
+  * Fixed getCopy\(\) to properly function when the Edit uses the field decimalPlaces - TotalCross\#505
+* Spinner: fixed Spinner animation repainting over previous frames - TotalCross\#568
+* OutlinedEdit: fixed NPE when using the cancel button on CalendarBox - TotalCross\#547
+* PopupMenu: fixed performance issues with Material style caused by onPaint recreating the ninepatch on every refresh. This change also affects the performance of other components that may use PopupMenu, such as ComboBox.
+
 ## 5.1.2 - 2019-08-05
 
 ####  Highlights
