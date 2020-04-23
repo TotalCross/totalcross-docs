@@ -8,8 +8,8 @@ description: How to install TotalCross on your computer.
 
 You will need to have installed on your computer:
 
-* [Java 8](https://learn.totalcross.com/get-started/requirements/java-8)
-* [Maven](https://learn.totalcross.com/get-started/requirements/maven)
+* [Java 8](https://learn.totalcross.com/documentation/miscelaneous/java-8)
+* [Maven](https://learn.totalcross.com/documentation/miscelaneous/maven)
 * [Visual Studio Code](../miscelaneous/installing-visual-studio-code.md) on it's latest released version. or [Node.js](https://nodejs.org/en/) if you prefer to use your Terminal/CMD/Powershell with our Command Line Tool \(CLI\).
 
 {% hint style="warning" %}
