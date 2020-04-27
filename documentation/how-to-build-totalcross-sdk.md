@@ -1,6 +1,11 @@
-# teste
+# How to build TotalCross SDK
 
-After cloning the project \(`git clone https://github.com/TotalCross/totalcross.git TotalCross`\) you will have:
+After cloning the project you will have:
+
+{% hint style="success" %}
+To clone the project use the command:   
+`git clone https://github.com/TotalCross/totalcross.git TotalCross`
+{% endhint %}
 
 ```text
 TotalCross/

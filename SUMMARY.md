@@ -81,7 +81,7 @@
   * [OpenGL](documentation/developers-area/opengl.md)
   * [Skia](documentation/developers-area/skia.md)
   * [Writing documentation](documentation/developers-area/components.md)
-* [teste](documentation/teste.md)
+* [How to build TotalCross SDK](documentation/how-to-build-totalcross-sdk.md)
 * [Guides](documentation/guides/README.md)
   * [App Architecture](documentation/guides/app-architecture/README.md)
     * [Suggested Architecture](documentation/guides/app-architecture/suggested-architecture.md)
