@@ -76,6 +76,7 @@
   * [CLI](documentation/developers-area/cli.md)
   * [Debugging WinCE on VS 2008](documentation/developers-area/debugging-wince-on-vs-2008.md)
   * [How to build TotalCross SDK](documentation/developers-area/how-to-build-totalcross-sdk.md)
+  * [How to build TotalCross VM \(WIP\)](documentation/developers-area/how-to-build-totalcross-vm-wip.md)
   * [Creating an Issue](documentation/developers-area/issues-guide.md)
   * [IMEI in Android 10](documentation/developers-area/international-mobile-equipment-identity.md)
   * [Local Database - SQLite](documentation/developers-area/how-to-store-data-sqlite.md)
