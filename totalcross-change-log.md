@@ -6,25 +6,57 @@ description: All notable changes to this project will be documented in this file
 
 ## 6.0.4 - 2020-04-20
 
-#### Highlights
+### Notes
 
-* Fixed build for all available platforms on public repository
-* Skia for Android
+#### **General**
 
-#### Fixed
+* Disabled screen shifting on Android and iOS \(when clicking on edit the keyboard would appear over edit\);
+* Added tag name to XML's ContentHandler.
 
-* Build: Added some build.xml for Ant build \(without ProGuard\)
+#### **Arm**
+
+* ~~SDL statically linked~~ SDL dynamically linked for Linux x86-64;
+* Fix Linux x86 and 64 launcher \(x-sharedlib to x-executable\).
+
+#### **Android**
+
+* Added Skia for Android so now is supported truetype fonts
 * Fixed Android buildType
-* Fixed WinCE, Win32, Android and Linux x86-64 VM build
-* Fix Linux x86-64 launcher \(_x-sharedlib_ to _x-executable_\)
-* Added iOS files
 
-#### Changed
+#### **iOS**
 
-* Added Skia for Android
-* Added tag name to XML's ContentHandler
-* ~~SDL statically linked~~ SDL dynamically linked for Linux x86-64
-* Disabled screen shifting when keyboard is over edit \(not working on Android\)
+* Added iOS files on public repository;
+* Support to Metal on iOS;
+
+#### Linux 
+
+* Fixed SQLite on Linux Desktop. 
+
+#### Windows
+
+* There were no changes
+
+#### WinCE
+
+* There were no changes
+
+### Build Information
+
+* Fixed SDK and VM build for all available platform on public repository:
+  * WinCE;
+  * Windows;
+  * Android;
+  * Linux;
+  * Linux arm x86;
+  * Linux arm x64;
+* Added build.xml for Ant build \(without ProGuard\);
+* Added documentation about how to build [SDK](https://learn.totalcross.com/documentation/developers-area/how-to-build-totalcross-sdk) and [VM](https://learn.totalcross.com/documentation/developers-area/how-to-build-totalcross-vm-wip).
+
+### Community
+
+* TotalCross is under the **LGPL v2.1**;
+* Removed the mirror from GitLab to GitHub: **GitHub** is officially the main repository;
+* New [TotalCross-Toradex Image](https://github.com/TotalCross/totalcross-toradex-demo) added on GitHub.
 
 ## 5.1.4 to 6.0.3
 
