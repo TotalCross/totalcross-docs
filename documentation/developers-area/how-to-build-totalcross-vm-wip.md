@@ -4,6 +4,12 @@ description: Learn the steps to generate your custom VM.
 
 # How to build TotalCross VM \(WIP\)
 
+Learn the steps to generate your custom VM. Our build process needs Docker, please [install it](https://docs.docker.com/get-docker/) and check your installation:
+
+```text
+$ docker --version
+```
+
 After cloning the project you will have:
 
 {% hint style="success" %}
