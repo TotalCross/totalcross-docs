@@ -105,6 +105,7 @@
     * [Deploy iOS](documentation/guides/package-your-app-from-scratch/deploy-ios/README.md)
       * [Using Development certificate to test your apps](documentation/guides/package-your-app-from-scratch/deploy-ios/using-development-certificate-to-test-your-apps.md)
   * [Understanding TotalCross for Linux ARM](documentation/guides/understanding-totalcross-for-linux-arm.md)
+  * [Running C++ applications with TotalCross](documentation/guides/running-c++-applications-with-totalcross.md)
   * [Web Services](documentation/guides/how-to-receive-send-data-webservice.md)
 * [Miscelaneous](documentation/miscelaneous/README.md)
   * [Java JDK 8](documentation/miscelaneous/java-8.md)

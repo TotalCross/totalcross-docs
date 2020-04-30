@@ -10,7 +10,7 @@ To activate and deactivate any external component the embedded board is to chang
 
 ![](../../.gitbook/assets/image%20%2812%29.png)
 
-![](../../.gitbook/assets/image%20%28109%29.png)
+![](../../.gitbook/assets/image%20%28113%29.png)
 
 ```java
 package com.totalcross.DocRpi;
@@ -58,7 +58,7 @@ public class DocRpi extends MainWindow {
 
 In several embedded applications, it is necessary to receive digital signal from an external component such as sensors or even to activate another component indirectly.
 
-![](../../.gitbook/assets/image%20%2869%29.png)
+![](../../.gitbook/assets/image%20%2872%29.png)
 
 ```java
 package com.totalcross.DocRpi;

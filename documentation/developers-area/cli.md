@@ -58,7 +58,7 @@ Your TotalCross account has been created.
 
 **Step 2:** Type `totalcross login` and enter your email and password used during registration.
 
-![Login on CLI](../../.gitbook/assets/image%20%28128%29.png)
+![Login on CLI](../../.gitbook/assets/image%20%28132%29.png)
 
 {% hint style="success" %}
 Ready! You are logged in.
@@ -76,7 +76,7 @@ Write your first program.
 
 **Step 3:** After answering the questions, your project will be created and ready to be developed. Type ls to check if your project was created in a folder with the name of the project \(what you entered as project artifactID\).
 
-![](../../.gitbook/assets/image%20%28129%29.png)
+![](../../.gitbook/assets/image%20%28133%29.png)
 
 ### Package
 
@@ -86,11 +86,11 @@ Write your first program.
 
 **Step 3:** Run `totalcross package` 
 
-![](../../.gitbook/assets/image%20%28123%29.png)
+![](../../.gitbook/assets/image%20%28127%29.png)
 
 Step 4: Wait a minute or so. The result of the package will be in the folder `target/install/<platform>`
 
-![](../../.gitbook/assets/image%20%28100%29.png)
+![](../../.gitbook/assets/image%20%28104%29.png)
 
 ### Deploy & Run 
 
@@ -112,7 +112,7 @@ In the version, TotalCross CLI v1.1.2 \(Alpha\), the deploy has been disabled fo
 
 **Step 4:** In `You want to run after deploy ?`, check `yes`, if you just want to deploy choose the `no`.
 
-![](../../.gitbook/assets/image%20%2892%29.png)
+![](../../.gitbook/assets/image%20%2896%29.png)
 
   
 **Step 5:** see the result on the screen or with VNC
