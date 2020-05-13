@@ -12,6 +12,8 @@ Continue following this **Get Started** Guide and you will create your first Tot
 
 Shall we begin?
 
+### Create Project
+
 {% tabs %}
 {% tab title="Visual Studio Code" %}
 **Step 1:** Open VSCode Command Palette \(CTRL+Shift+P on Windows, ⇧⌘**P** on Mac\), type TotalCross and select **TotalCross: Create new Project.**
