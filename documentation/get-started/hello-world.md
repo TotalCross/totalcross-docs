@@ -4,13 +4,7 @@ description: How to write your first TotalCross program.
 
 # 3. Hello World
 
-To use TotalCross you will need to have [Visual Studio Code installed](../miscelaneous/installing-visual-studio-code.md) on your machine, as well as [Java 8](../miscelaneous/java-8.md) and [Maven](../miscelaneous/maven.md). 
-
-Once these dependencies are sorted, you can [install TotalCross](install.md) in two easy steps and [create your free account](register.md) in three more steps.
-
-Continue following this **Get Started** Guide and you will create your first TotalCross App in 20 steps \(6 minutes\).
-
-Shall we begin?
+**To use TotalCross you will need to have**[ **Visual Studio Code installed**](https://app.gitbook.com/@totalcross/s/playbook/~/diff/drafts/-M5c0UjasnlGa5ykzIOZ/documentation/miscelaneous/installing-visual-studio-code/@merged) **on your machine, as well as**[ **Java 8**](https://app.gitbook.com/@totalcross/s/playbook/~/diff/drafts/-M5c0UjasnlGa5ykzIOZ/documentation/miscelaneous/java-8/@merged) **and**[ **Maven**](https://app.gitbook.com/@totalcross/s/playbook/~/diff/drafts/-M5c0UjasnlGa5ykzIOZ/documentation/miscelaneous/maven/@merged)**.**
 
 ### Create Project
 
