@@ -4,8 +4,6 @@
 
 Switch is a element that chooses between two proportions
 
-![](https://totalcross.com/documentation/img/samples/switch-sample.gif)
-
 {% code title="SwitchSample.java" %}
 ```java
  // Instance a simple switch
