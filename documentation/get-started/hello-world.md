@@ -2,7 +2,7 @@
 description: How to write your first TotalCross program.
 ---
 
-# 3. Hello World
+# 2. Hello World
 
 **To use TotalCross you will need to have**[ **Visual Studio Code installed**](https://app.gitbook.com/@totalcross/s/playbook/~/diff/drafts/-M5c0UjasnlGa5ykzIOZ/documentation/miscelaneous/installing-visual-studio-code/@merged) **on your machine, as well as**[ **Java 8**](https://app.gitbook.com/@totalcross/s/playbook/~/diff/drafts/-M5c0UjasnlGa5ykzIOZ/documentation/miscelaneous/java-8/@merged) **and**[ **Maven**](https://app.gitbook.com/@totalcross/s/playbook/~/diff/drafts/-M5c0UjasnlGa5ykzIOZ/documentation/miscelaneous/maven/@merged)**.**
 

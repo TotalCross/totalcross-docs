@@ -10,7 +10,7 @@ You will need to have installed on your computer:
 
 * [Java 8](https://learn.totalcross.com/documentation/miscelaneous/java-8)
 * [Maven](https://learn.totalcross.com/documentation/miscelaneous/maven)
-* [Visual Studio Code](../miscelaneous/installing-visual-studio-code.md) on it's latest released version. or [Node.js](https://nodejs.org/en/) if you prefer to use your Terminal/CMD/Powershell with our Command Line Tool \(CLI\).
+* [Visual Studio Code](../miscelaneous/installing-visual-studio-code.md) on it's latest released version.
 
 {% hint style="warning" %}
 You may experience an issue installing the TotalCross plugin if your Visual Studio Code is not updated.
@@ -24,7 +24,7 @@ You may experience an issue installing the TotalCross plugin if your Visual Stud
 
 ![Finding the Extensions panel on Visual Studio Code](../../.gitbook/assets/extensions%20%281%29.gif)
 
-**Step 2: T**ype TotalCross in the search bar and click to install.
+**Step 2:** Type TotalCross in the search bar and click to install.
 
 ![Installing the TotalCross plugin](../../.gitbook/assets/totalcross.gif)
 
