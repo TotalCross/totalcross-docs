@@ -34,7 +34,9 @@ Are you thinking in implements a barcode reader in your app? TotalCross have a s
       </td>
     </tr>
   </tbody>
-</table>## How to use
+</table>
+
+## How to use
 
 There are two ways to make the scanner.
 

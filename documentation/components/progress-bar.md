@@ -167,7 +167,9 @@ public class ProgressBarSample extends MainWindow {
       </td>
     </tr>
   </tbody>
-</table>## References
+</table>
+
+## References
 
 * See the [Java Docs](https://rs.totalcross.com/doc/totalcross/ui/ProgressBar.html) for more information.
 * You can check the example contained in the SDK, in tc.samples.api.ui ProgressBarSample.

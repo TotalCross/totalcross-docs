@@ -177,7 +177,9 @@ public class TabbedContainerSample extends ScrollContainer {
       </td>
     </tr>
   </tbody>
-</table>### References
+</table>
+
+### References
 
 * See a example on [github](https://github.com/TotalCross/TCSample/blob/master/src/main/java/totalcross/sample/components/ui/TabbedContainerSample.java) .
 * See the [Java Docs](https://rs.totalcross.com/doc/totalcross/ui/Grid.html) for more information.

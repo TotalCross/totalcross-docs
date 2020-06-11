@@ -176,7 +176,9 @@ public class GridSample extends MainWindow {
       <td style="text-align:left">Add a new line at the given index position of the grid.</td>
     </tr>
   </tbody>
-</table>‌
+</table>
+
+‌
 
 ### References <a id="references"></a>
 

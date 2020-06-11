@@ -15,11 +15,9 @@ See at this guide:
 
 ## Requirements
 
-Basic requirements must be met:
+Complete the Getting Started:
 
-And complete the Getting Started:
-
-{% page-ref page="understanding-totalcross-for-linux-arm.md" %}
+{% page-ref page="../get-started/" %}
 
 The following electronic components are also required:
 

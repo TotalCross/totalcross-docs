@@ -376,7 +376,9 @@ Having all of those parameters, you will be able to run the following command:
       </td>
     </tr>
   </tbody>
-</table>{% hint style="success" %}
+</table>
+
+{% hint style="success" %}
 Now you're ready to properly install or upload to the apple store your application.
 {% endhint %}
 

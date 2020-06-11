@@ -185,7 +185,9 @@ sets back the default encoder. The method returns true if the given encoder was 
       <td style="text-align:left">Returns the hash code of the string stored by this StringBuffer.</td>
     </tr>
   </tbody>
-</table>{% hint style="warning" %}
+</table>
+
+{% hint style="warning" %}
 The class StringBuffer does not have a method that returns its hash code, so you would have to first create a String from the StringBuffer to get its hash code, like this:   
   
 ****`int hashCode = sb.toString.hashCode();` 

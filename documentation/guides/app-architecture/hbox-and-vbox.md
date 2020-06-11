@@ -123,7 +123,9 @@ public void initUI() {
       <td style="text-align:left">Organizes each element from bottom to top.</td>
     </tr>
   </tbody>
-</table>## Methods
+</table>
+
+## Methods
 
 | Type | Name | Description |
 | :--- | :--- | :--- |

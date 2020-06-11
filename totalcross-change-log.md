@@ -260,7 +260,7 @@ All the previously listed changes were put in use to futher develop the SideMenu
 
 #### Added
 
-* Added classes [`AsyncTask`](https://totalcross.gitbook.io/playbook/apis/asynchronous-task#using-asynctask-class-to-execute-background-tasks) and `ThreadPool` to improve concurrency support, refer to the documentation and the PlayBook for more information and samples
+* Added classes [`AsyncTask`](https://learn.totalcross.com/documentation/apis/asynchronous-task) and `ThreadPool` to improve concurrency support, refer to the documentation and the PlayBook for more information and samples
 
 ##  4.3.8 - 2019-05-31 
 

@@ -221,7 +221,9 @@ public class HelloWorld extends MainWindow {
       <td style="text-align:left">The Edit&apos;s placeholder text</td>
     </tr>
   </tbody>
-</table>### Methods
+</table>
+
+### Methods
 
 | Type | Name | Description |
 | :--- | :--- | :--- |

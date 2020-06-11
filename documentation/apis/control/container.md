@@ -92,7 +92,9 @@ Some methods that are most commonly used
       <td style="text-align:left">Assigns the color of the back parameter to the container background</td>
     </tr>
   </tbody>
-</table>## Referencies
+</table>
+
+## Referencies
 
 You can see more information in [javaDoc](https://rs.totalcross.com/doc/totalcross/ui/Container.html)
 

@@ -252,7 +252,9 @@ Possible Arguments \(in any order and case insensitive\). Default is marked as \
         that extends MainWindow must always be the last argument</td>
     </tr>
   </tbody>
-</table>## Another way to run the simulator
+</table>
+
+## Another way to run the simulator
 
 Another way to run the simulator is calling the **totalcross.Launcher** class directly through the command line or "Run" from Eclipse IDE like the images below
 

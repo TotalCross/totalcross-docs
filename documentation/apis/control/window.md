@@ -225,7 +225,9 @@ The other members that can be used \(all public and some protected\) of the Wind
       <td style="text-align:left">The UIRobot instance that is being used to record or play events.</td>
     </tr>
   </tbody>
-</table>Never mess with the public member zStack. It is used to store the windows that are currently popped up. It is made public because the totalcross.Launcher class uses it.
+</table>
+
+Never mess with the public member zStack. It is used to store the windows that are currently popped up. It is made public because the totalcross.Launcher class uses it.
 
 ## How controls inside a window are repainted:
 
