@@ -115,7 +115,7 @@ public class HelloWorld extends MainWindow{
 
 ![](../../.gitbook/assets/image%20%28101%29.png)
 
-Change the size of the buttons.
+Change the buttons sizes.
 
 ```java
 package com.totalcross;
@@ -188,6 +188,36 @@ public class HelloWorld extends MainWindow {
 {% hint style="warning" %}
 Do not forget **to create a folder** called "_**images**_" inside _**/src/main/resources**_ and **save the** [**bt\_info.png**](https://github.com/TotalCross/TCSample/blob/master/src/main/resources/images/bt_info.png) **image inside it** \[images\].
 {% endhint %}
+
+## Events
+
+Handling events with `addPressListener()` :
+
+```java
+package com.totalcross;
+import totalcross.ui.gfx.Color;
+import totalcross.sys.Settings;
+import totalcross.ui.Button;
+import totalcross.ui.MainWindow;
+public class HelloWorld extends MainWindow {
+
+    private Button btnRed;
+    private Button btnGreen;
+    private Button btnBlue;
+    public HelloWorld(){
+        setUIStyle(Settings.MATERIAL_UI);
+    }
+    @Override
+    public void initUI(){
+        btn = new Button("Do something");
+        btn.setBackForeColors(Color.RED, Color.WHITE);
+        btn.addPressListener((event) -> {
+            // DO SOMETHING
+        })
+        add(btn, CENTER,CENTER );
+    }
+}
+```
 
 ## Behind the Class
 
