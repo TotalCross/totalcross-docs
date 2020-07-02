@@ -4,6 +4,14 @@ description: This library serves to control the digital pins of the embedded GPI
 
 # Gpiod
 
+## Requirements
+
+In order to execute Gpiod methods at your embedded device, you will need to have the libgpiod-dev package installed in your board. You can do that by entering the following command at the device's terminal:
+
+```java
+$ sudo apt-get install libgpiod-dev
+```
+
 ## Output
 
 To activate and deactivate any external component the embedded board is to change the value of the GPIO pin that will activate it.

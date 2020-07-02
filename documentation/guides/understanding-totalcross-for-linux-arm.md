@@ -27,6 +27,12 @@ The following electronic components are also required:
 * LED RGB module \(or common 4 pins LED RGB\);
 * Push-button module \(or common push-button\).
 
+In order to execute Gpiod methods at your embedded device, you will also need to have the libgpiod-dev package installed in your board. You can do that by entering the following command at the device's terminal:
+
+```java
+$ sudo apt-get install libgpiod-dev
+```
+
 ## **Guide**
 
 ### Discover VS Code plugin
