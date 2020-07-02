@@ -16,7 +16,7 @@ description: How to write your first TotalCross program.
 
 **Step 2:** Create a folder called _HelloWorld_ and select it.
 
-**Step 3:** Fill in the prompted questions. _GroupId_ is the domain of your company domain backwards as in `org.wikipedia` for `wikipedia.org`. Feel free to leave is ascom.totalcross for this tutorial if you wish.
+**Step 3:** Fill in the prompted questions. _GroupId_ is the domain of your company domain backwards as in `org.wikipedia` for `wikipedia.org`. Feel free to leave it as com.totalcross for this tutorial if you wish.
 
 ![](../../.gitbook/assets/create2.gif)
 
@@ -125,7 +125,7 @@ import totalcross.sys.Settings;
 
 public class HelloWorld extends MainWindow {
     
-    private ScrollContainer sc;
+    private ScrollContainer scrollContainer;
     public HelloWorld() {   
         setUIStyle(Settings.MATERIAL_UI);
     }
@@ -133,7 +133,7 @@ public class HelloWorld extends MainWindow {
     @Override
     public void initUI() {
         try {
-            ScrollContainer scrollContainer = new ScrollContainer(false,true);
+            scrollContainer = new ScrollContainer(false,true);
         }
         catch (Throwable error) {
             error.printStackTrace();
