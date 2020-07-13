@@ -1,6 +1,7 @@
 # Table of contents
 
 * [TotalCross Overview](README.md)
+* [TotalCross Javadoc](totalcross-javadoc.md)
 * [TotalCross Changelog](totalcross-change-log.md)
 * [Roadmap](roadmap.md)
 
