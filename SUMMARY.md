@@ -7,7 +7,7 @@
 
 ## Documentation
 
-* [Get Started](documentation/get-started/README.md)
+* [Getting Started](documentation/get-started/README.md)
   * [1. Install](documentation/get-started/install.md)
   * [2. Hello World](documentation/get-started/hello-world.md)
 * [Components](documentation/components/README.md)

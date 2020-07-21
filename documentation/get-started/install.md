@@ -1,16 +1,8 @@
 ---
-description: How to install TotalCross on your computer.
+description: How to install TotalCross using the Visual Studio Code plugin
 ---
 
 # 1. Install
-
-### Minimum Requirements
-
-You will need to have installed on your computer:
-
-* [Java 8](https://learn.totalcross.com/documentation/miscelaneous/java-8)
-* [Maven](https://learn.totalcross.com/documentation/miscelaneous/maven)
-* [Visual Studio Code](../miscelaneous/installing-visual-studio-code.md) on it's latest released version.
 
 {% hint style="warning" %}
 You may experience an issue installing the TotalCross plugin if your Visual Studio Code is not updated.
