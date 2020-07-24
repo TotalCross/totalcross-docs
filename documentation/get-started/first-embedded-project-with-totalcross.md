@@ -242,7 +242,9 @@ $ sudo apt-get install -y libgpiod-dev
 
 To deploy the code to your board, first package the application by pressing **CTRL + SHIFT + P** again and choose “TotalCross: Package”. If everything went ok, you can press **CTRL** + **SHIFT** +  **P** again and now choose “TotalCross: Deploy&Run”. Now enter the user for your board \(eg. “pi”\), the host \(the IP address\), and the password to it. You can select the default folder for the application to be stored at the host and press enter to start the upload. 
 
-If everything worked fine, you now should see the application running at your board! 
+If everything worked fine, you now should see the application running at your board like this:
+
+![LightSwitch sample in Raspberry Pi 3](../../.gitbook/assets/led-totalcross-linux-arm.gif)
 
 You can try out some modifications and upgrades at the code by your own now, and maybe try out some other [Components](https://learn.totalcross.com/documentation/components). If you want to step up your application ever further, check out the [Guides](https://learn.totalcross.com/documentation/guides) tab, where you can find some tips on how to build a more advanced and scalable architecture to your software, and also how to run external applications using TotalCross. 
 
