@@ -8,13 +8,33 @@ description: All notable changes to this project will be documented in this file
 
 Welcome to the July 2020 release \(version 6.1.0\). We hope you enjoy the updates in this version. The key highlights are:
 
+* **Maven plugin new version:** your `pom.xml` file should change;
 * **KnowCode Compatibility** - It is now possible to run Android XMLs Layouts on Linux Arm;
 * **Virtual Keyboard** - New look and animations;
 * **Using external applications** - Through the runtime.exec method;
 * **Anonymous user statistics** - There is now an option to contribute by sending anonymous data;
-* **Changing the SDL implementation** - Removing the SDL code from within the TotalCross SDK and changing the static to dynamic link.
+* **Changing the SDL implementation** - Removing the SDL code from within the TotalCross SDK and changing the static to dynamic link**.**
 
 Join our[ community on the telegram](https://t.me/totalcrosscommunity) to suggest activities and learn about development for embedded systems.
+
+### **Maven plugin new version**
+
+After the latest _Language Support for Java_ extension updates, some systems had compatibility issues with Java 11. We launched a new version of the TotalCross maven plugin to solve them, the _1.1.6._ You must change the following line:
+
+```markup
+...
+
+<plugin>
+  <groupId>com.totalcross</groupId>
+  <artifactId>totalcross-maven-plugin</artifactId>
+  <!-- This line: -->
+  <version>1.1.6</version>
+  <configuration>
+    <name>${project.name}</name>
+    <platforms>
+    
+...
+```
 
 ### KnowCode compatibility
 
@@ -88,7 +108,7 @@ For details, see pull requests [\#23](https://github.com/TotalCross/totalcross/p
 * Fixed [creation of TotalCross modules\(tcz files\) using Java headless](https://github.com/TotalCross/totalcross/pull/45);
 * Fixed [round border on Container](https://github.com/TotalCross/totalcross/pull/47); 
 * Fixed [Switch Bar not being drawn](https://github.com/TotalCross/totalcross/pull/49);
-* Fixed [wrong size returned by FontMetrics.stringWidth\(String s\)](https://github.com/TotalCross/totalcross/pull/50) on devices that use skia with .ttf file type fonts. 
+* Fixed [wrong size returned by FontMetrics.stringWidth\(String s\)](https://github.com/TotalCross/totalcross/pull/50) on devices that use skia with _.ttf_ file type fonts. 
 * Fixed [Torizon/Wayland SDL](https://github.com/TotalCross/totalcross/pull/35) initialization; 
 * Fixed [FadeAnimation](https://github.com/TotalCross/totalcross/pull/33): the animation is now working as intended.
 
