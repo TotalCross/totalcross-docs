@@ -62,9 +62,9 @@ public class RunLightSwitchApplication {
 
 At the VSCode's Explorer menu, open the tabs “src” then “main”, right click resources, select “New Folder”, and create a folder called “images”. Right click it and select “Open Containing Folder” to open it at your system. There you can add the two png image files we are going to use at this project: 
 
-{% file src="../../.gitbook/assets/light-bulb-on.png" caption="light-bulb-on.png" %}
+{% file src="../../.gitbook/assets/light-bulb-on \(2\).png" %}
 
-{% file src="../../.gitbook/assets/light-bulb-off.png" %}
+{% file src="../../.gitbook/assets/light-bulb-off \(2\).png" %}
 
 Now right click java/com/totalcross, and create a new folder called “util”. Inside it, create two java files: Colors.java and Images.java. Images.java will serve as a helper class to load our image files and return their instances. Add the following code to it:  
 
@@ -121,6 +121,7 @@ import totalcross.io.device.gpiod.GpiodChip;
 import totalcross.io.device.gpiod.GpiodLine;
 import totalcross.ui.event.ControlEvent;
 import totalcross.ui.event.PressListener;
+import totalcross.util.UnitsConverter;
 import totalcross.sys.Settings;
 ```
 
@@ -157,13 +158,14 @@ public void initUI() {
         icLight = new ImageControl(Images.iLightOff);
         icLight.scaleToFit = true;
         
-        //Position light bulb image at the center of the screen,
-        //with an width of 387 pixels and height of 446 pixels
-        add(icLight, CENTER, CENTER, 387, 446);
-        
-        //Position switch component below the center of the screen,
-        //with an width of 150 pixels and height of 30 pixels
-        add(swLightSwitch, CENTER, CENTER + 170, 150, 30);
+        // Position light bulb at the center of the screen,
+        // using the original size of the image
+        add(icLight, CENTER, CENTER - UnitsConverter.toPixels(DP + 40), 
+                PREFERRED, PREFERRED);
+
+        // Position the switch below the image 
+        add(swLightSwitch, CENTER, AFTER, UnitsConverter.toPixels(DP + 150), 
+                UnitsConverter.toPixels(DP + 30));
     }
 ```
 
@@ -244,9 +246,9 @@ If everything worked fine, you now should see the application running at your bo
 
 You can try out some modifications and upgrades at the code by your own now, and maybe try out some other [Components](https://learn.totalcross.com/documentation/components). If you want to step up your application ever further, check out the [Guides](https://learn.totalcross.com/documentation/guides) tab, where you can find some tips on how to build a more advanced and scalable architecture to your software, and also how to run external applications using TotalCross. 
 
+### References <a id="references"></a>
 
-
-
+* [Source code](https://github.com/TotalCross/LightSwitch)
 
 
 
