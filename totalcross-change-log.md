@@ -65,7 +65,7 @@ In the images below you can see the visual difference:
 
 ### External applications
 
-To allow the use of external libraries in the simplest way possible is one of TotalCross goals. There is a [branch in our repository called tcni-rebased](https://github.com/TotalCross/totalcross/tree/feature/tcni-rebased) which \(still a Proof Of Concept\) allows the use of these external libraries
+To allow the use of external libraries in the simplest way possible is one of TotalCross goals. There is a [branch in our repository called tcni](https://github.com/TotalCross/totalcross/tree/feature/tcni) which \(still a Proof Of Concept\) allows the use of these external libraries
 
 {% hint style="warning" %}
 TCNI is a foreign function interface programming framework that enables TotalCross/Java code running in a Java virtual machine to call and be called by native applications and libraries written in other languages ​​such as C, C ++ and assembly.
