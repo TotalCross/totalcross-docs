@@ -25,10 +25,20 @@ In this example we will be using a Raspberry Pi 3, but you can use any other har
 ![Hardware configuration using Raspberry Pi 3](../../.gitbook/assets/led.png)
 
 {% hint style="info" %}
-**Don’t forget to make sure that the short leg on your LED \(which is the negative lead\) is connected to the GND**
+Don’t forget to make sure that the short leg on your LED \(which is the negative lead\) is connected to the GND
 {% endhint %}
 
-After the circuit is assembled, let’s test the LED using the gpioset tool from the libgpiod interface. It is important to know that the GPIO chips are mapped into groups of 32 pins, so if you are using GPIO 68, for example, you would need to access chip 2 and pin 4 \(because 32 x 2 + 4 = 68\). In our example, Raspberry 3 has only one chip, so let’s use chip 0 and pin 21. Access your board’s console via SSH or a serial port and try the following command: 
+After the circuit is assembled, let’s test the LED using the gpioset tool from the libgpiod interface. It is important to know that the GPIO chips are mapped into groups of 32 pins, so if you are using GPIO 68, for example, you would need to access chip 2 and pin 4 \(because 32 x 2 + 4 = 68\). In our example, Raspberry 3 has only one chip, so let’s use chip 0 and pin 21. 
+
+{% hint style="info" %}
+As a requirement to use the gpioset tools or TotalCross' Gpiod component, you will need to install the libgpiod-dev package at your board, if it is not installed already. This package contains the required static libraries, headers for this component work on your embedded device. To do that, make sure you have an internet connection in your board and run the following command at its console:
+
+```bash
+$ sudo apt-get install -y libgpiod-dev
+```
+{% endhint %}
+
+Access your board’s console via SSH or a serial port and try the following command: 
 
 ```bash
 $ gpioset -m wait gpiochip0 21=1
@@ -234,11 +244,9 @@ PressListener onSwitchPressed = new PressListener() {
 
 ### Deploy the application to your board
 
-As a requirement to use the Gpiod component, you will need to install the libgpiod-dev package at your board, if it is not installed already. This package contains the required static libraries, headers for this component work on your embedded device. To do that, make sure you have an internet connection in your board and run the following command at its console:
-
-```bash
-$ sudo apt-get install -y libgpiod-dev
-```
+{% hint style="info" %}
+Make sure you have installed _libgpiod-dev_ at your board, as explained at the [Assembling and testing the hardware](https://learn.totalcross.com/documentation/get-started/first-embedded-project-with-totalcross#2-assembling-and-testing-the-hardware) __section
+{% endhint %}
 
 To deploy the code to your board, first package the application by pressing **CTRL + SHIFT + P** again and choose “TotalCross: Package”. If everything went ok, you can press **CTRL** + **SHIFT** +  **P** again and now choose “TotalCross: Deploy&Run”. Now enter the user for your board \(eg. “pi”\), the host \(the IP address\), and the password to it. You can select the default folder for the application to be stored at the host and press enter to start the upload. 
 
