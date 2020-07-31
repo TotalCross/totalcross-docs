@@ -199,6 +199,6 @@ TotalCross
 Look to the `bin` folder, now you just need to copy `libtcvm.so` to your valid SDK folder
 
 ```text
-~TotalCrossVM/builders/gcc-linux-arm/tcvm$ cp bin/libtcvm.so $PATH_TO_VALID_SDK/dist/vm/linux_ar
+~TotalCrossVM/builders/gcc-linux-arm/tcvm$ cp bin/libtcvm.so $PATH_TO_VALID_SDK/dist/vm/linux_arm
 ```
 
