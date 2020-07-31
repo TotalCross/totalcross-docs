@@ -8,8 +8,8 @@
 ## Documentation
 
 * [Getting Started](documentation/get-started/README.md)
-  * [1. Install](documentation/get-started/install.md)
-  * [3. First embedded project with TotalCross](documentation/get-started/first-embedded-project-with-totalcross.md)
+  * [Environment setup](documentation/get-started/install.md)
+  * [First embedded project with TotalCross](documentation/get-started/first-embedded-project-with-totalcross.md)
 * [Components](documentation/components/README.md)
   * [Accordion](documentation/components/accordion-container.md)
   * [Aligned Labels](documentation/components/aligned-labels-container.md)

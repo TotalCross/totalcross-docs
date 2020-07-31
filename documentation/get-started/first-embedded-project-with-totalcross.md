@@ -2,7 +2,7 @@
 description: Step by step on how to build your first embedded application using TotalCross
 ---
 
-# 3. First embedded project with TotalCross
+# First embedded project with TotalCross
 
 ## 1. Introduction
 
@@ -49,6 +49,10 @@ You should see that now your LED is on. This command writes a high value to the 
 ## 3. Writing a TotalCross application
 
 ### Create a project with the VSCode plugin
+
+{% hint style="info" %}
+At this step by step guide we will be using the official TotalCross plugin for Visual Studio Code, but you can work with any other IDE that supports Java and Maven. Check out how to install TotalCross also on Eclipse and IntelliJ at the environment setup section.
+{% endhint %}
 
 Before we start, make sure you have installed VSCode and the TotalCross plugin. Then, press **CTRL + SHIFT + P** and find the “TotalCross: Create New Project” option. You can create a new folder to your project called “LightSwitch”, and then enter “com.totalcross” as your GroupId, and “LightSwitch” again as your ArtifactId. Chose the latest TotalCross version, make sure you check the “-linux\_arm” checkbox and press **Enter** to start your new project. Now, if you open src/main/java/com/totalcross folder at VSCode’s navigator, right click the RunLightSwitchApplication.java file and press enter. You should see TotalCross’ simulator in action, which will now display a white background with the “Hello World” label. You can also press **CTRL + F5** to run it. 
 
