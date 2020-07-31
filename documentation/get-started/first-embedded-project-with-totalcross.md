@@ -56,7 +56,7 @@ Before we start, make sure you have installed VSCode and the TotalCross plugin. 
 
 The first step is to adjust the application to fit the resolution of your screen. Let’s suppose your device has a 848x480 LCD display. Open the “RunLightSwitchApplication.java” file and enter two additional strings as parameters to the “TotalCrossApplication.run\(\)” method: "/scr" and "848x480". The string following the “/r” parameter contains your TotalCross registration key, so don’t change it. Check out how your display looks now at your simulator. Your file should look like this: 
 
-```bash
+```java
 package com.totalcross;
  
 import totalcross.TotalCrossApplication;
@@ -78,7 +78,7 @@ At the VSCode's Explorer menu, open the tabs “src” then “main”, right cl
 
 Now right click java/com/totalcross, and create a new folder called “util”. Inside it, create two java files: Colors.java and Images.java. Images.java will serve as a helper class to load our image files and return their instances. Add the following code to it:  
 
-```bash
+```java
 package com.totalcross.util;
 import totalcross.ui.image.Image;
 import totalcross.ui.dialog.MessageBox;
@@ -102,7 +102,7 @@ public class Images {
 
 In Colors.java, we will define the hex code for the colors used at the project, so add the following code to it:
 
-```bash
+```java
 package com.totalcross.util;
 
 public class Colors {
@@ -120,7 +120,7 @@ public class Colors {
 
 First let’s import all the packages we are going to need at the LightSwitch.java class. Add the following lines to it: 
 
-```bash
+```java
 package com.totalcross;
 
 import com.totalcross.util.*;
@@ -137,7 +137,7 @@ import totalcross.sys.Settings;
 
 Now let’s implement our main application in the LightSwtich.java file. Note that, by default, the class extends MainWindow class. Every TotalCross application must have one class extending it, as it serves as the main interface between our program and the TotalCross virtual machine \(TCVM\). We will use the constructor method to set the user interface style and set the background color to the application. Add the following lines of code to it: 
 
-```bash
+```java
 public LightSwitch() {
         setUIStyle(Settings.MATERIAL_UI);
         setBackColor(Colors.COLOR_DARK_GRAY);
@@ -146,7 +146,7 @@ public LightSwitch() {
 
 Then let’s create our UI components at the overriden initUI\(\) method. Create the instances to Switch and ImageControl components, set their attributes, and add them to the main window. To do that, we use the add\(\) method, where we can also specify the component’s position and size at the screen. Also notice that we are using the Images util class we created before to load the images and to give a starting state to our ImageControl component.
 
-```bash
+```java
 private Switch swLightSwitch;
 private ImageControl icLight;
 
@@ -181,7 +181,7 @@ public void initUI() {
 
 Now we are going to create a pressListener and add it to our light switch. A pressListener obejct is an event handler that serves as a callback to any pressing event that happens on a component. With it we can check the switch’s state at each press and, based on that, update our image with the new on or off state. Create the following object at your class:
 
-```bash
+```java
 PressListener onSwitchPressed = new PressListener() {
         @Override
         public void controlPressed(ControlEvent controlEvent) {
@@ -196,7 +196,7 @@ PressListener onSwitchPressed = new PressListener() {
 
 And add it to the switch component, inside the "initUI\(\)" method: ****
 
-```bash
+```java
 swLightSwitch.addPressListener(onSwitchPressed);
 ```
 
@@ -206,7 +206,7 @@ The UI is ready to go! You can run the TC simulator to check the result.
 
 Finally, let’s add the Gpiod component, which will actually drive our GPIOs according to the switch's state. First we need to create both GpiodChip and GpiodLine objects at our LightSwitch class and initialize them at our "initUI\(\)" method with the respective chip and pin number \(with the same values we used with the Linux’s libgpiod\). We also need to set the pin as an output, with the “requestOutput” method, and set the initial state as low \(represented by 0\):
 
-```bash
+```java
 private GpiodChip gpioChip;
 private GpiodLine pin;
 
@@ -227,7 +227,7 @@ public void initUI() {
 
 Then, use the press listener to set values to on and off state:
 
-```bash
+```java
 PressListener onSwitchPressed = new PressListener() {
         @Override
         public void controlPressed(ControlEvent controlEvent) {
