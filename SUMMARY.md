@@ -9,7 +9,6 @@
 
 * [Getting Started](documentation/get-started/README.md)
   * [1. Install](documentation/get-started/install.md)
-  * [2. Hello World](documentation/get-started/hello-world.md)
   * [3. First embedded project with TotalCross](documentation/get-started/first-embedded-project-with-totalcross.md)
 * [Components](documentation/components/README.md)
   * [Accordion](documentation/components/accordion-container.md)
