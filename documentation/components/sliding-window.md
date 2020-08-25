@@ -4,7 +4,7 @@
 
 Sliding Window is a fullscreen window that slides in and out of the screen during pop and unpop events. Use it to create transition effects between screens.
 
-![](https://totalcross.com/documentation/img/samples/slidingwindow-sample.gif)
+![](../../.gitbook/assets/slidingwindow.gif)
 
 ### Source Code
 
