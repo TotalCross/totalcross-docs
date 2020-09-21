@@ -8,8 +8,7 @@ description: Learn how to install TotalCross and write your first App.
 
 To start using TotalCross, you will need to install this dependencies on your machine:
 
-* VSCode: [Java 11 ](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)or greater to be compatible with [Language Support for Java\(TM\) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java);
-* Others IDEs: you can use any version since [Java 8](https://learn.totalcross.com/documentation/miscelaneous/java-8);
+* [Java 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 * [Maven](../miscelaneous/maven.md).
 
 In the next steps you will learn how to quickly setup TotalCross at your favorite IDE. If you have already installed the prerequisites, let's get started!  
