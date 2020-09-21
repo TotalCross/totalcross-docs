@@ -14,7 +14,7 @@ To start using TotalCross, you will need to install this dependencies on your ma
 
 In the next steps you will learn how to quickly setup TotalCross at your favorite IDE. If you have already installed the prerequisites, let's get started!  
 
-{% hint style="warning" %}
+{% hint style="success" %}
 On versions 2.0.0 or above from totalcross-maven-plugin you need to agree to the [Terms of Use](https://www.azul.com/products/zulu-and-zulu-enterprise/zulu-terms-of-use/) from Azul, if you don't you can change the jdk used to any Java version you want to use, this is described [here](https://github.com/TotalCross/totalcross-maven-plugin/releases/tag/v2.0.0).
 {% endhint %}
 
