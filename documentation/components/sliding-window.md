@@ -8,39 +8,59 @@ Sliding Window is a fullscreen window that slides in and out of the screen durin
 
 ### Source Code
 
-{% code title="SlidingWindowSample.java" %}
+{% tabs %}
+{% tab title="SlidingWindow class" %}
 ```java
-@Override
-public void controlPressed(ControlEvent e) {
-    SlidingWindow sw = new SlidingWindow(new Presenter() {
-        @Override
-        public Container getView() {
-            return new Container() {
-                public void initUI() {
-                    ImageControl i;
-                    try {
-                        i = new ImageControl(new Image("images/logoV.png"));
-                        i.scaleToFit = true;
-                        i.centerImage = true;
-                        add(i, CENTER, CENTER, 100 + DP, 100 + DP);
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    } catch (ImageException e) {
-                        e.printStackTrace();
-                    }
-                };
-            };
-        }
-    });
-    sw.popup();
-}
-});
-add(btn, CENTER, BOTTOM);
-} catch (IOException | ImageException e) {
-    e.printStackTrace();
+package com.totalcross;
+
+import totalcross.ui.Container;
+import totalcross.ui.Presenter;
+import totalcross.ui.SlidingWindow;
+
+public class MySlidingWindow extends SlidingWindow {
+
+    public MySlidingWindow(boolean delayInitUI, Presenter<Container> provider) {
+        super(delayInitUI, provider);
+    }
+
+    public MySlidingWindow(Presenter<Container> provider, int animDir,
+                                                          int totalTime){
+        super(provider);
+        this.animDir = animDir; // This can be LEFT or RIGHT, any other will
+                                // be BOTTOM
+        this.totalTime = totalTime; // Time, in milliseconds for the animation
+    }
 }
 ```
-{% endcode %}
+{% endtab %}
+
+{% tab title="Calling the SlidingWindow" %}
+```java
+MySlidingWindow slidingWindow = new MySlidingWindow(new Presenter<Container>(){
+            
+		 @Override
+		 public Container getView() {
+				return new Container() {
+          public void initUI() {
+            ImageControl i;
+            try {
+                i = new ImageControl(new Image("images/logoV.png"));
+                i.scaleToFit = true;
+                i.centerImage = true;
+                add(i, CENTER, CENTER, 100 + DP, 100 + DP);
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (ImageException e) {
+                e.printStackTrace();
+            }
+          };
+        };
+	   }
+}, RIGHT, 500);
+slidingWindow.popup();
+```
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 Because it is a more complex example, we only show the specific Sliding Window example code, if you want to see the whole code of the image interface construction [click here](https://github.com/TotalCross/TCSample/blob/master/src/main/java/totalcross/sample/components/Home.java).
