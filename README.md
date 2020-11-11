@@ -1,72 +1,72 @@
 ---
 description: >-
-  TotalCross is a cross-platform tool that lets you develop apps in JAVA and
-  deploy them to iOS, Android and Windows easily, leading to 3x cost and time
-  savings.
+  TotalCross is an SDK that speeds up the Graphical User Interface (GUI) for embedded systems and Internet of Things (IoT) devices.
 ---
 
 # TotalCross Overview
 
-Our vision is **to create the next generation of cross-platform tools** and help Java developers and companies to **easily create beautiful mobile applications** for all platforms on the market.
+TotalCross is an open source cross-platform SDK developed to bring speed to GUI creation for embedded devices. TotalCross has the development benefits from Java without the need of Java running on the device, as it uses its own bytecode and virtual machine (TC bytecode and TCVM), created specifically for performance enhancement. TotalCross runtime is currently at 5MB to bring mobile grade user experience even for low-end MPUs.
 
-* Track all TotalCross updates through the [customer space.](http://www.superwaba.net/SDKRegistrationService/)
-* Ask for feature request or vote for existing ones on GitLab [The TotalCross Companion](https://gitlab.com/totalcross/TotalCross/issues) remember to tag it with `feature`
-* Found a bug? Please open an [issue](https://gitlab.com/totalcross/TotalCross/issues)
-* Follow the [blog ](https://blog.totalcross.com/)posts to access marketing, development, technology and more
+TotalCross is compatible with:
 
-## Supported Platforms
-
-* **Android** 4.0.3 and above \(API level 15\);
-* **iOS** 8.0 and above;
-* **Hand Held** \(Honeywell, Zebra, etc\);
-* **Windows** XP and above;
-* **Linux** 32 and 64 bits;
-* **Java** applet \(JDK 1.1 and above\);
-* **Raspberry PI;**
-* **Toradex;**
-* **Beaglebone**. 
+- **Android** 4.0.3 and above \(API level 15\);
+- **iOS** 8.0 and above;
+- **Windows** XP and above;
+- **Windows** CE;
+- **Linux** 32 and 64 bits;
+- **Linux ARM**
+  - Yocto (ex: [Toradex Boards](https://www.toradex.com/))
+  - Angstron
+  - Debian (ex: [Raspberry Pi](https://www.raspberrypi.org/))
 
 {% hint style="success" %}
-The choice of Java as a language for development was not occasional, but due to the fact that of the **21 million existing developers** in the world, **9 million are Java developers**, according to the Global Developers Population and Demographic Study in 2016.   
-**It is one of the largest development communities in the world!**
+Java was chosen as the development language for TotalCross because it is **one of the largest development communities in the world!** It is on the top three most popular languages, with over **9 million Java developers** worldwide.
 {% endhint %}
 
-## Virtual Machine Features
+## No JVM running on the device
 
-In our heart is present our virtual machine, originally idealized in a master's degree, and already built and perfected over 10 years. It's log-based \(Java\) architecture, bytecode _"itself with its own folders"_ for the most frequent and **implemented 100% with C guarantees performance equivalent to native development.**
+TotalCross only uses Java for coding, because the Java Bytecode is converted to TotalCross Bytecode (TC Bytecode) to run on the TotalCross Virtual Machine (TCVM).
 
-This is how TotalCross applications can run not only on Android or iOS devices but also on desktops and hand helds \(Honeywell, Zebra, etc.\) or kiosks that can do Android, Windows or WinCE, supporting devices with the processor of 500Mhz and only 64MB of RAM.
+![](../.gitbook/assets/totalcrossvm.jpeg)
 
-### TotalCross Virtual Machine features
+## Why do I need TotalCross Bytecode and TotalCross Virtual Machine?
 
-#### The TotalCross Virtual Machine \(TCVM\) is a shared library written from scratch, and has the following features:
+Java is widely used for Desktop, Web and Mobile applications but not so much for embedded applications. Embedded system devices usually need low footprint and high performance. That’s where TotalCross comes in. The TC bytecode and TCVM were built to increase the performance and lower the footprint of an application built with Java by deploying it natively. That means that Java won’t need to run on your embedded device.
 
-* It interprets a proprietary set of opcodes instead of Java Bytecodes. 
-* It is a register-based VM, not stack-based as Java, which results in **better performance.** 
-* **It has support for real multi-threading**. Note that the TotalCross API does not supports concurrency, which must be implemented by your own. 
-* The TotalCross class \(tclass\) files stores internal information in little endian, since its the most widely used format of actual microprocessors. 
-* **The tclass files are highly optimized to save space**. For instance, the constant pool \(where strings, constants, and identifiers are stored\) is shared among all deployed classes, and each class entry is compressed using zlib. 
-* **Supports headless applications** \(like daemon applications, without user interface\): just implement the interface totalcross.MainClass and this class will be loaded by the TCVM. The appStarting\(\) and appEnding\(\) methods are called and the application exits. 
-* **Supports the method finalize\(\)**, ran every time the garbage collector \(gc\) finishes its job. There’s a limitation: no objects can be created inside a finally method, otherwise the method will silently abort itself. Optionally, to improve GC’s performance, you can define in your class a public non-static field named dontFinalize that, if present and set to true, will skip the finalize call. In most cases, finalize\(\) is used to ensure that a class that holds system resources \(like file or socket\) and should be closed to release these resources is always closed, either because the programmer forgot to do it himself or because the program was halted by an exception. Note that you must define the field dontFinalize and set it to true when the close method is run for the first time. Otherwise the gc will try to finalize an object that was already closed by the programmer, which may cause trouble. Doing so also speeds up the gc. 
+The Java virtual machine (JMV) is stack-based while the TotalCross Virtual Machine (TCVM) is register-based. That means that simple functions (like C = A+ B) will potentially need **four instructions in JVM** while only **one instruction is needed in TCVM**.
 
-### The TotalCross VM also has a drawback:
+![](../.gitbook/assets/totalcrossbytecode.png)
 
-It does not support the float type, only double. This option was adopted because all actual processors have a math co-processor, and also because the vast majority of mobile applications are not scientific programs. During our research, we found that float types are two times faster than double, but this small performance difference does not make up for the overhead needed to add float type support to the virtual machine. The change from float to double will be done by the translator to let legacy applications work, however, you should change your application to use double, since there’s no benefit by using float.
+The TotalCross Virtual Machine (TCVM) is a shared library written from scratch, and has the following features:
 
-## Thread Support
+- It interprets a proprietary set of opcodes instead of Java Bytecodes.
+- It has support for real multi-threading. Note that the TotalCross API does not support concurrency, which must be implemented by yourself.
+- TotalCross class (tclass) files store internal information in little endian, the most widely used format of actual microprocessors.
+- tclass files are highly optimized to save space. For instance, the constant pool (where strings, constants, and identifiers are stored) is shared among all deployed classes, and each class entry is compressed using zlib.
+- It supports headless applications (like daemon applications, without user interface): just implement the interface totalcross.MainClass and this class will be loaded by the TCVM. The appStarting() and appEnding() methods are called and the application exits.
+- Supports the method finalize(). This method runs every time the garbage collector (GC) finishes its job. There’s a limitation: no objects can be created inside a finally method, otherwise the method will silently abort itself. Optionally, to improve GC’s performance, you can define in your class a public non-static field named dontFinalize that, if present and set to true, will skip the finalize call. In most cases, finalize() is used to ensure that a class that holds system resources (like file or socket) and should be closed to release these resources is always closed, either because the programmer forgot to do it himself or because the program was halted by an exception. Note that you must define the field dontFinalize and set it to true when the close method is run for the first time. Otherwise the GC will try to finalize an object that was already closed by the programmer, which may cause trouble. Doing so also speeds up the GC.
 
-TotalCross supports preemptive threads using the native thread mechanism of each supported platform. On Android, iOS, and Linux, it uses pthread, and on Windows, it uses the qte well documented thread api.
+## Built to be lean
 
-The API does not support concurrency. If your program needs to access the same object from many threads, you must use the synchronized keyword. The support for synchronized is limited: it does not support synchronized methods, neither classes, neither standard objects. You must use the synchronized\(object\), and the only object type that can be used as parameter is the totalcross.util.concurrent.Lock. If you use synchronized\(this\), the tc.Deploy will abort during deploy; if you use synchronized with an object from any other class besides the Lock class, a RuntimeException will be thrown when your program runs in the TotalCross virtual machine. Moreover, using the synchronized keyword before a method will be useless: it will be ignored by the VM. Note that these problems will not occur when running on Java desktop, only when running on TCVM. Here’s a sample that shows how to use it:
+The TotalCross technology started in 2007 to speed up mobile application development. The main target in that time was the [Palm Treo 650](https://en.wikipedia.org/wiki/Treo_650) which had low computing power with:
 
-```java
-\lstinputlisting[label=samplecode,caption=A sample]companion_resources/listings/TestConcurrent.java
-```
+- 312 MHz Intel PXA270 processor
+- 32 MB (Non-Volatile File System built-in, flash shared memory) (23 MB available)
 
-In the sample above, commenting out the line marked with \*\*\*\*\*, the log list box will be filled randomly by the threads. With the lock, it will be filled in sequence, because each thread will gain the lock once, and the other threads will have to wait the main loop of the lock owner finish before starting their loops. There’s no limit in the number of locks used.
+From 2019 TotalCross also supports embedded systems devices, providing great UI/UX.
 
-Generally speaking, you can create a thread to listen to a socket or a file or even a Litebase table in background, but be aware that if you try to access the same resource by different threads your application might just blow up. We also don’t recommend running the user interface in a background thread, due to system event concurrency. Threads should be used for I/O and other tasks, but not for showing user interface screens that could receive events.  
+![](../.gitbook/assets/totalcrosshistory.png)
 
+## Licensing
+
+TotalCross SDK is a Free and Open Source Software (FOSS) under the LGPL v2.1 license. It means no license and runtime fees even for commercial usage, without needing to open the project source code.  
+TotalCross revenue model is not based on license and runtime sales. It is based on services (support, integrations and GUI design), complementary technologies and a future marketplace of components.
+
+![](../.gitbook/assets/businessmodel.png)
+
+### Complying with LGPL v2.1
+
+![](../.gitbook/assets/lgpl2-1.png)
 
 ## Graphics, Palette and Color
 
@@ -133,4 +133,3 @@ public class MyProgram extends Container{
 TotalCross applications are currently impossible to be decompiled, because, as mentioned before, TotalCross uses a proprietary set of opcodes instead of Java Bytecodes. The translation between Java Bytecodes to TotalCross opcodes is done automatically when the application is deployed.
 
 However, this also means that you cannot retrieve your application’s source files from the deployed application, so don’t forget to backup your source files!
-
