@@ -79,7 +79,6 @@
   * [How to build TotalCross VM \(WIP\)](documentation/developers-area/how-to-build-totalcross-vm-wip.md)
   * [Creating an Issue](documentation/developers-area/issues-guide.md)
   * [IMEI in Android 10](documentation/developers-area/international-mobile-equipment-identity.md)
-  * [Local Database - SQLite](documentation/developers-area/how-to-store-data-sqlite.md)
   * [OpenGL](documentation/developers-area/opengl.md)
   * [Skia](documentation/developers-area/skia.md)
   * [Writing documentation](documentation/developers-area/components.md)

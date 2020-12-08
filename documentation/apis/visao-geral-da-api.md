@@ -41,8 +41,6 @@ public class DatabaseManager {
 
 To learn more about SQLite, how to implement SQLite Useful, creating applications with database and CRUD just read the link session below:
 
-{% page-ref page="../developers-area/how-to-store-data-sqlite.md" %}
-
 ### totalcross.io
 
 The totalcross.io package concentrates the classes used in input and output.

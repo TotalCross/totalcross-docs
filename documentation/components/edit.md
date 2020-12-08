@@ -220,6 +220,14 @@ public class HelloWorld extends MainWindow {
       <td style="text-align:left">caption</td>
       <td style="text-align:left">The Edit&apos;s placeholder text</td>
     </tr>
+    <tr>
+      <td style="text-align:left"><b>boolean</b>
+      </td>
+      <td style="text-align:left">forceBackgroundColor</td>
+      <td style="text-align:left">forces the edit tu use the background color on it, must be used with UIColors.sameColors
+        setted to <b>true</b>
+      </td>
+    </tr>
   </tbody>
 </table>
 
