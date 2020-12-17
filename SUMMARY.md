@@ -8,7 +8,6 @@
 ## Documentation
 
 * [Getting Started](documentation/get-started/README.md)
-  * [Environment setup](documentation/get-started/install.md)
   * [First embedded project with TotalCross](documentation/get-started/first-embedded-project-with-totalcross.md)
 * [Components](documentation/components/README.md)
   * [Accordion](documentation/components/accordion-container.md)
