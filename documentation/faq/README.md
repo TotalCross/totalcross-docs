@@ -15,7 +15,7 @@ See step-by-step from item 2 below:
 
 ![3.  just click &quot;Next&quot;](../../.gitbook/assets/3.png)
 
-![4. click &quot;Directory&quot; and select the JDK folder](../../.gitbook/assets/4.png)
+![4. click &quot;Directory&quot; and select the JDK folder](../../.gitbook/assets/4%20%281%29.png)
 
 ![5. Just click Finish  ](../../.gitbook/assets/6.png)
 

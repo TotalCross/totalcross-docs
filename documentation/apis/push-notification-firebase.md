@@ -82,7 +82,7 @@ Then you can click on "Create project" and then "Continue".
 
 You will be redirected to an overview of your project, where you will click on the Android icon that is in the banner of the page, as shown in the image below:
 
-![](../../.gitbook/assets/criar-um-projeto-android.png)
+![](../../.gitbook/assets/criar-um-projeto-android%20%282%29.png)
 
 * A form will appear for you to fill out. In the first step, Register App, you only need to fill in the name of the Android package. Here you must fill in with **totalcross.app&lt;Settings.applicationID&gt;**  that you filled in the previous step. In this case, it will be called **totalcross.appTCFB**. You can then click Register App.
 

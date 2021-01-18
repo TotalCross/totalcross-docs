@@ -10,7 +10,7 @@ The easiest way to install is by opening the .deb package via Software Center GU
 
 If you prefer to install using your terminal, type the command`sudo apt-get install code`
 
-![](../../.gitbook/assets/image%20%2852%29.png)
+![](../../.gitbook/assets/image%20%286%29%20%281%29.png)
 
 For more information access [https://code.visualstudio.com/docs/setup/linux](https://code.visualstudio.com/docs/setup/linux)
 {% endtab %}

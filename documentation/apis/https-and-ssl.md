@@ -45,7 +45,7 @@ The root certificate is called the Google G3 Authority. Therefore, for HTTPS to 
 
 ![Step 2.1](../../.gitbook/assets/https_ssl-2.1.jpg)
 
-![Step 2.2](../../.gitbook/assets/https_ssl-2.2.jpg)
+![Step 2.2](../../.gitbook/assets/https_ssl-3%20%281%29.jpg)
 
 * After you click Copy to File, you will see some options, click the one that has "base64 encoded".
 

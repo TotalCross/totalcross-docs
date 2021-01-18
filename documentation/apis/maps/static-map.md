@@ -30,7 +30,7 @@ After downloading the dependency it will be necessary to generate the tcz of the
 
 Find the folder that is located in the dependency, usually is: C:\Users\**your\_user**\.m2\repository\com\totalcross\utils\tc-utilities\0.0.1-SNAPSHOT
 
-![](../../../.gitbook/assets/pasta%20%281%29.PNG)
+![](../../../.gitbook/assets/pasta%20%281%29%20%281%29.PNG)
 
 To generate tcz execute the command java -cp "% TOTALCROSS 3\_HOME%" / dist / totalcross-sdk.jar tc.Deploy tc-utilities-0.0.1-SNAPSHOT.jar / r YOUR\_TC\_KEY 
 

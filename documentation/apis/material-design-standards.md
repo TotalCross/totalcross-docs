@@ -87,7 +87,7 @@ We'll be passing through changes to the base Material Design looks. All of the c
   * A bug where the Toast faded out immediately after called is now fixed.
   * Here are some images, so you can get the preview:
 
-    ![single\_line\_toast](../../.gitbook/assets/single_line_toast%20%281%29.png)
+    ![single\_line\_toast](../../.gitbook/assets/single_line_toast%20%281%29%20%281%29.png)
 
     ![double\_line\_button\_toast](../../.gitbook/assets/double_line_button_toast.png)
 

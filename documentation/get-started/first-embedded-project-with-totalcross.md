@@ -22,7 +22,7 @@ To understand the Gpiod module it is important to understand the libgpiod, which
 
 In this example we will be using a Raspberry Pi 3, but you can use any other hardware running a Linux distribution with an ARM microprocessor unit, just pay attention to the board’s pinout configuration. We can see at the [Raspberry documentation](https://www.raspberrypi.org/documentation/usage/gpio/) that the pin 40 can be used as GPIO21 and pin 39 can be used as GND, so the hardware configuration will be as it is shown in the figure below: 
 
-![Hardware configuration using Raspberry Pi 3](../../.gitbook/assets/led.png)
+![Hardware configuration using Raspberry Pi 3](../../.gitbook/assets/led%20%281%29.png)
 
 {% hint style="info" %}
 Don’t forget to make sure that the short leg on your LED \(which is the negative lead\) is connected to the GND
@@ -76,9 +76,9 @@ public class RunLightSwitchApplication {
 
 At the VSCode's Explorer menu, open the tabs “src” then “main”, right click resources, select “New Folder”, and create a folder called “images”. Right click it and select “Open Containing Folder” to open it at your system. There you can add the two png image files we are going to use at this project: 
 
-{% file src="../../.gitbook/assets/light-bulb-on \(2\).png" %}
+{% file src="../../.gitbook/assets/light-bulb-on \(2\) \(1\).png" %}
 
-{% file src="../../.gitbook/assets/light-bulb-off \(2\).png" %}
+{% file src="../../.gitbook/assets/light-bulb-off \(2\) \(1\).png" %}
 
 Now right click java/com/totalcross, and create a new folder called “util”. Inside it, create two java files: Colors.java and Images.java. Images.java will serve as a helper class to load our image files and return their instances. Add the following code to it:  
 
