@@ -4,7 +4,7 @@
 
 QR codes are a popular type of two-dimensional barcode.They can store up to 4,296 alphanumeric characters of arbitrary text. This text **can be numerical, alphanumerical or binary**, for example ****URL, contact information, a telephone number. 
 
-QR codes can be read by an optical device with the appropriate software like a totalcross application or even your phone's camera. To see how to make a qrcode reader click [here](https://totalcross.gitbook.io/playbook/apis/barcode-scanner).
+QR codes can be read by an optical device with the appropriate software like a totalcross application or even your phone's camera. To see how to make a qrcode reader click [here](https://learn.totalcross.com/documentation/apis/barcode-scanner).
 
 ## Usage
 
